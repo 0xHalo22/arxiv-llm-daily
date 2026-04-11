@@ -152,4 +152,4 @@ _Lilian Wanzare, Cynthia Amol, zekiel Maina, Nelson Odhiambo, Hope Kerubo, +12 m
 
 AfriVoices-KE is a large-scale multilingual speech dataset comprising approximately 3,000 hours of audio across five Kenyan languages: Dholuo, Kikuyu, Kalenjin, Maasai, and Somali. The dataset includes 750 hours of scripted speech and 2,250 hours of spontaneous speech, collected from 4,777 native speakers across div...
 
-_snapshot taken at 2026-04-11T18:17:26+00:00_
+_snapshot taken at 2026-04-11T19:18:34+00:00_
