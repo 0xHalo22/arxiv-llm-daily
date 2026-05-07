@@ -13,6 +13,8 @@ import os
 import re
 import subprocess
 import sys
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -49,14 +51,53 @@ def build_query_url() -> str:
 
 
 def fetch_feed() -> str:
+    """fetch the arxiv ATOM feed with retries.
+
+    arxiv's public api is occasionally flaky — slow responses, transient 5xx,
+    rate-limit blips. without retries, our daily cron failed ~30% of days.
+    we retry up to 4 times with exponential backoff. arxiv's rate-limit
+    guidance is "1 query every 3 seconds" so we start with 3s backoff."""
     url = build_query_url()
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return r.read().decode("utf-8")
+    last_err: Exception | None = None
+    backoff = 3.0
+
+    for attempt in range(1, 5):
+        print(f"  fetch attempt {attempt}/4 …")
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                body = r.read().decode("utf-8")
+            # sanity check: must look like an ATOM feed.
+            # if arxiv returns an HTML error page or a rate-limit notice,
+            # the body won't start with the XML preamble — treat as failure
+            # and retry rather than crashing the parser.
+            if not body.lstrip().startswith("<?xml"):
+                snippet = body[:200].replace("\n", " ")
+                raise RuntimeError(
+                    f"response is not XML ({len(body)} bytes); starts with: {snippet!r}"
+                )
+            return body
+        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, RuntimeError) as e:
+            last_err = e
+            print(f"    failed: {type(e).__name__}: {e}")
+            if attempt < 4:
+                print(f"    sleeping {backoff:.1f}s before retry")
+                time.sleep(backoff)
+                backoff *= 2
+
+    assert last_err is not None
+    raise RuntimeError(f"arxiv fetch failed after 4 attempts: {last_err}") from last_err
 
 
 def parse_entries(feed_xml: str) -> list[dict]:
-    root = ET.fromstring(feed_xml)
+    try:
+        root = ET.fromstring(feed_xml)
+    except ET.ParseError as e:
+        # log the first chunk of what we got so future failures are debuggable
+        snippet = feed_xml[:500].replace("\n", " ")
+        raise RuntimeError(
+            f"failed to parse arxiv feed as XML: {e}; body starts with: {snippet!r}"
+        ) from e
     out = []
     for entry in root.findall("atom:entry", ATOM_NS):
         eid = entry.findtext("atom:id", default="", namespaces=ATOM_NS).strip()
