@@ -1,4 +1,4 @@
-# arxiv LLM daily — 2026-10-10
+# arxiv LLM daily — 2026-10-11
 
 the 30 most recent papers from cs.CL and cs.AI.
 
@@ -152,4 +152,4 @@ _Neha Verma, Sungwon Kim, Kenton Murray, Kevin Duh_ • 2026-10-08
 
 While caching key-value (KV) states accelerates Large Language Model (LLM) decoding, this cache can dominate memory usage at long context lengths. One solution is to compress this memory by exploiting inter-layer cache similarities. However, most existing techniques necessitate architectural changes to LLMs and incu...
 
-_snapshot taken at 2026-10-10T17:59:23+00:00_
+_snapshot taken at 2026-10-11T18:26:45+00:00_
