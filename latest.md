@@ -1,4 +1,4 @@
-# arxiv LLM daily — 2026-10-12
+# arxiv LLM daily — 2026-10-13
 
 the 30 most recent papers from cs.CL and cs.AI.
 
@@ -152,4 +152,4 @@ _Hongrui Zheng, Aditya Singh, Rahul Mangharam_ • 2026-10-09
 
 Cooperative multi-agent tasks often impose constraints on a shared objective or collective safety. A team level violation cost function can measure this constraint outcome, but does not distinguish which agents' actions most strongly influence that violation. We present SafeDiSTL, a constrained multi-agent reinforce...
 
-_snapshot taken at 2026-10-12T21:51:18+00:00_
+_snapshot taken at 2026-10-13T19:56:54+00:00_
