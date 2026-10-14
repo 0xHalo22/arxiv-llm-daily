@@ -1,155 +1,155 @@
-# arxiv LLM daily — 2026-10-13
+# arxiv LLM daily — 2026-10-14
 
 the 30 most recent papers from cs.CL and cs.AI.
 
-### [Can Language Models Play the Wikipedia Game?](http://arxiv.org/abs/2610.13948v1)
-_Alexander Hickey, Joanna Knight, James Bishop_ • 2026-10-09
+### [ChunkAct: Action Chunking for Agentic Robotics](http://arxiv.org/abs/2610.18874v1)
+_Bingxin Xu, Wenrui Bao, Xinxin Liu, Jiawei Zhou, Yuzhang Shang, +1 more_ • 2026-10-13
 
-Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the Wikipedia Game to test language models on an analogous information retrieval task. In the game, playe...
+Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and thereby generalizes to new tasks without retraining. This generality comes at a steep price in efficiency. Every primit...
 
-### [Hide and Seek: HIDE Concepts to SEEK explanations for black box models](http://arxiv.org/abs/2610.13935v1)
-_Bhanu Tokas, Rahul Nair, Rockwell Jackson, Hannah Kerner_ • 2026-10-09
+### [What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study](http://arxiv.org/abs/2610.18869v1)
+_Mingxuan Yan, Litian Gong, Dihong Huang, Zhixu Li, Tianyu Zhang, +17 more_ • 2026-10-13
 
-Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regression models. They require access to mode...
+How should demonstration quality be used during vision-language-action (VLA) pretraining to improve performance after target-task fine-tuning? We compare weighting, filtering, and conditioning across reward definitions and label granularities using 5,000 naturally suboptimal human demonstrations and 24 target tasks....
 
-### [RSI-Anything: Unlocking Recursive Self-Improvement with World Models](http://arxiv.org/abs/2610.13912v1)
-_Taoyong Cui, Pinxian Zeng, Wanghan Xu, Hao Xiao, Shuhan Xue, +6 more_ • 2026-10-09
+### [Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards](http://arxiv.org/abs/2610.18868v1)
+_Wenbo Hu, Shraman Pramanick, Krishna Kumar Singh, Nanyun Peng, Kai-Wei Chang, +1 more_ • 2026-10-13
 
-Recursive self-improvement (RSI) aims to transform interaction experience into persistent improvements, yet external feedback is costly and world-model predictions may become unreliable as policies evolve. We introduce RSI-Anything, a domain-general framework built on JEPA-Anything that uses predictive world models...
+Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive self-improvement (RSI). Yet open-source models still struggle on long-horizon tasks, largely for lack of both tr...
 
-### [When VLMs Destroy What They Know: Spatial Representations Fall Below Lexical Priors](http://arxiv.org/abs/2610.13910v1)
-_Shubh Garg, Chen Shani_ • 2026-10-09
+### [DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning](http://arxiv.org/abs/2610.18862v1)
+_Minghao Luo, Liang Chen_ • 2026-10-13
 
-Vision-Language Models (VLMs) increasingly analyze and reason about images, yet it remains unclear whether their internal representations faithfully encode the structured relations required for such reasoning. We introduce EICS (Evaluation-Invariant Concept Stability), a metric for testing whether representations co...
+Reasoning models achieve strong performance through long chains of thought (CoT), but often spend more tokens than needed to solve a problem. Existing ways to shorten the CoT require additional training for each model, add a fixed steering vector to the model's hidden states, or use decoding heuristics such as stopp...
 
-### [Revisiting Tabular Deep Regression: Objectives and the Limits of Global Early Stopping](http://arxiv.org/abs/2610.13909v1)
-_Danil Rudenko, Georgii Bulgakov, Nikolay Kartashev, Ivan Rubachev, Daniil Krasylnikov, +1 more_ • 2026-10-09
+### [AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards](http://arxiv.org/abs/2610.18860v1)
+_Xin Gao, Yifan Yang, Xin Li, Pan Wang, Yan Li, +11 more_ • 2026-10-13
 
-While deep learning models for tabular data have recently received significant research attention, the choice of objective functions for regression tasks remains an understudied degree of freedom. Several lines of research offer alternatives to the standard Mean Squared Error (MSE), but differences in datasets, back...
+Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of layout and color come together on the canvas, often limiting spatial planning and aesthetic quality....
 
-### [Structural Automata for Neural Semantic Parsing](http://arxiv.org/abs/2610.13896v1)
-_Xiao Zhang_ • 2026-10-09
+### [Hybrid Reasoning Agents](http://arxiv.org/abs/2610.18861v1)
+_Jiaru Zou, Yunzhe Qi, Sirui Chen, Federico Bianchi, Shang Zhu, +3 more_ • 2026-10-13
 
-Neural semantic parsers generate meaning representations token by token, yet well-formedness depends on references, scope, and graph relations that unfold during generation. Constrained decoding prevents locally invalid tokens but does not guarantee that a valid prefix can be completed within a fixed output-length l...
+How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient internal medium but lacks native tool access and reasoning transparency. We bridge these two directi...
 
-### [Task Context Shapes Component Roles in Language Models](http://arxiv.org/abs/2610.13895v1)
-_Sovesh Mohapatra, Dani S Bassett_ • 2026-10-09
+### [Two Clocks: Why Larger Rollout Batches Learn Slower but Fail on Schedule in Reinforcement Learning with Verifiable Rewards](http://arxiv.org/abs/2610.18853v1)
+_Yuante Li, Junwei Quan, Kai Qiu, Kate Zhang, Yicheng Tao_ • 2026-10-13
 
-Large language models reuse the same attention heads across tasks, but identifying these shared heads does not explain what they do differently in each task. A natural source of inspiration is task-dependent interactions among shared brain regions, which motivate a network view of language-model computation. Here, w...
+Reinforcement learning with verifiable rewards (RLVR) relies on costly model-generated responses, motivating larger rollout batches and square-root learning-rate scaling. Reported to approximately preserve progress per sample with one optimizer step per rollout, this rule is less understood in practical multi-step t...
 
-### [RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics](http://arxiv.org/abs/2610.13889v1)
-_Weiliang Chen, Song Liao_ • 2026-10-09
+### [MFG: Multi-turn Feedback Guided Molecular Optimization](http://arxiv.org/abs/2610.18851v1)
+_Trieu Nguyen, Frazier N. Baker, Ruoxi Gao, Daniel Adu-Ampratwum, Xia Ning_ • 2026-10-13
 
-As AI agents increasingly rely on external tools, accurate retrieval is essential for reliable behavior. Existing methods optimize semantic relevance but largely ignore tool availability during execution. To address this gap, we propose RATED (Reliability-Aware Tool Retrieval via Execution Dynamics), a retrieval fra...
+Multi-objective molecular optimization is a critical process in drug discovery that aims to modify a given molecule to simultaneously improve multiple properties while maintaining a similar overall structure. This process often requires iterative modifications guided by computational or experimental feedback. Recent...
 
-### [X-AgentRed: Red-Teaming Personal Agents in Evolving Multi-Service Ecosystems](http://arxiv.org/abs/2610.13886v1)
-_Yeonsung Jung, Zhiyuan Wang, Zifan Wang, Vítor Albiero, Benjamin Newman, +3 more_ • 2026-10-09
+### [The Last Remote Sensing Model Built by Humans? Casting Any Earth Observation Task as Recursive Self-Improvement](http://arxiv.org/abs/2610.18845v1)
+_Sijie Zhao, Zeqi Zhou, Heli Qi, Xuanchao Fu, Zhuo Zheng, +4 more_ • 2026-10-13
 
-Personal agents increasingly connect to services across the web and applications by using tools. As the effects of their actions accumulate and interact across services, unintended or harmful outcomes can arise when agents fulfill benign user requests. Proactively identifying these compositional failures requires sy...
+Earth observation (EO) models are still built by hand. For each new task, experts design a training recipe and tune it against a benchmark. We show that this loop can be handed to an agent. Any verifiable task can be cast as a harness and a verifier, where the harness defines what the agent may use and the verifier...
 
-### [Studying Comics at Scale with Artificial Intelligence: The PAGE Framework and Three Studies of American Comics and Japanese Manga](http://arxiv.org/abs/2610.13840v1)
-_Emilio Ferrara_ • 2026-10-09
+### [LIBERO-RIG: A Hardware-Setup Robustness Benchmark for Vision-Language-Action Models](http://arxiv.org/abs/2610.18843v1)
+_Andrea Yaoyun Cui, Hanyu Wang, Xinyi Wang, Bangzheng Li, Lin Zhang, +4 more_ • 2026-10-13
 
-Comics are one of the great visual records of the twentieth century: hundreds of thousands of pages in which a mass readership saw its leaders, its wars and its heroes. Most of this record has never been studied as a whole; comics scholarship proceeds one book at a time. We argue that artificial intelligence, includ...
+Robot policies are expected to generalize across deployment environments, including variations in the robot itself: cameras are bumped and remounted, calibrations drift, controllers run at different rates, and end-effector pads wear down. We present LIBERO-RIG, a benchmark that perturbs only the robot's hardware and...
 
-### [SpatialASM: Internalizing Active Mentalization for Spatial Reasoning](http://arxiv.org/abs/2610.13832v1)
-_Yuhong Liu, Shenxi Wu, Junyi Chi, Beichen Zhang, Xuanlang Dai, +3 more_ • 2026-10-09
+### [Who Improves the Robot? Toward Physical Recursive Self-Improvement](http://arxiv.org/abs/2610.18842v1)
+_Hai Zhou, Fan Yang, Zeyi Chen, Lejun Zhang, Chenyang Fu, +25 more_ • 2026-10-13
 
-When solving complex spatial reasoning tasks, ordinary humans naturally revisit the scenes from task-relevant viewpoints and mentally reconstruct the spatial layouts from those viewpoints. But can Large Vision-Language Models (LVLMs) proactively think in the same way? We term this ability Active Spatial Mentalizatio...
+Robots are increasingly autonomous in task execution, yet their improvement remains largely human-driven. This study investigates Physical Recursive Self-Improvement (Physical RSI), in which physical experience guides lasting updates to both a robot's capabilities and its improvement procedure, making subsequent imp...
 
-### [MC-EvoBench: Auditing Experience-Driven Self-Improvement in Minecraft Agents](http://arxiv.org/abs/2610.13829v1)
-_Jingwei Song, Zhisheng Chen, Bingfan Zeng, Jing Tang, Yubo Hou, +3 more_ • 2026-10-09
+### [Fast Rates for Offline Q-Learning with KL Regularization](http://arxiv.org/abs/2610.18839v1)
+_Yize Hao, Guangxin Jiang, Shuang Qiu_ • 2026-10-13
 
-A central challenge in embodied recursive self-improvement is enabling agents to convert interaction history into capabilities that persist beyond one world and transfer to later tasks. A saved memory or successful final action does not by itself establish that a reusable capability was acquired; evaluation must sep...
+This paper investigates offline Q-learning for finite-horizon Markov decision processes with Kullback-Leibler (KL) regularization. Recent studies have shown that KL regularization can yield fast rates in offline decision-making problems. However, it remains unclear whether Q-learning, which adopts incremental stocha...
 
-### [OpenPA: Forced-alignment-free Multi-granular Pronunciation Assessment with Mixed-transcript Adaptation](http://arxiv.org/abs/2610.13826v1)
-_Fu-An Chao, Bi-Cheng Yan, Berlin Chen_ • 2026-10-09
+### [RoboSimStudio: An Interactive Toolkit for Rapid Real2Sim of Robot Manipulation Tasks](http://arxiv.org/abs/2610.18835v1)
+_Kaiyuan Chen, Shuangyu Xie, Uksang Yoo, Xinyue Zhu, Cael Magner, +7 more_ • 2026-10-13
 
-Recent advances in automatic pronunciation assessment (APA) have driven a shift from scripted to free-form assessment. However, existing methods often rely on multi-stage pipelines with forced alignment and separate feature extractors, limiting their practicality across response settings. In light of this, we propos...
+It is difficult to accurately model the physics of the interaction between a robot and the objects it manipulates, including contact mechanics, coupled contact dynamics, deformations, stiffness and friction. We present RoboSimStudio (RSS), an interactive toolkit that makes choices of solver, contact model, and physi...
 
-### [Same Query, Different Answer: Run-to-Run Variance in Semantic Query Processing](http://arxiv.org/abs/2610.13823v1)
-_Oktie Hassanzadeh, Dharmashankar Subramanian_ • 2026-10-09
+### [OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding](http://arxiv.org/abs/2610.18829v1)
+_Xuyang Liu, Shihao Wang, Xinyu Wei, Minghan Li, Zeqing Wang, +3 more_ • 2026-10-13
 
-Semantic query engines ask a large language model (LLM) to judge individual rows, and benchmarks compare these engines on the quality of a few executions at temperature 0. We measure how much another execution changes. We re-execute the text and tabular workloads of SemBench, LRO-Bench, and UDA-Bench through their o...
+With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understanding benchmarks cover only part of the evaluation dimensions, limiting systematic diagnosis of omni-modal video understanding. We introd...
 
-### [Can Language Models Learn When to Abstain? Policy Learning and Calibrated Answer Selection](http://arxiv.org/abs/2610.13821v1)
-_Juan Terven, Diana-Margarita Córdova-Esparza, Ruben Gomez, Carlos Miranda Rocha, Julio-Alejandro Romero-González, +1 more_ • 2026-10-09
+### [Read the Room Before Your Model Generates](http://arxiv.org/abs/2610.18820v1)
+_Muyao Kong, Zhihao Lin_ • 2026-10-13
 
-A useful language model should know when to answer and when to say "I don't know." Can we improve that decision by training the model itself or by training a separate component to check its answers? We study both approaches on Qwen3-14B for factual questions, using a score that rewards correct answers, penalizes mis...
+Large language models (LLMs) generally rely on sampling temperature to regulate the amount of randomness in their outputs. Mainstream methods for selecting temperature typically involve fixed, heuristic global settings and context or token-level calibration, rather than a geometrically interpretable representation o...
 
-### [QTestBench: A Test Framework for Evaluating LLM-Generated Quantum Code](http://arxiv.org/abs/2610.13811v1)
-_Meriem Terki, Nouhaila Innan, Minghao Shao, Muhammad Kashif, Alberto Marchisio, +1 more_ • 2026-10-09
+### [Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs](http://arxiv.org/abs/2610.18818v1)
+_Divyanshu Bathla, Parag Singla, Jitin Singla_ • 2026-10-13
 
-Large language models (LLMs) have shown strong results in classical code generation and are increasingly used to write the unit tests that safeguard that code. Whether they can do the same for quantum software is less clear, because quantum programs are probabilistic, depend on numerical tolerances, and are judged b...
+Pre-trained Large Language Model (LLMs) are effective on many tasks in zero-shot and few-shot settings. For machine translation of low-resource languages, the obvious options are few-shot prompting and fine-tuning on a small parallel set. We ask: what if moderate amounts of low-resource monolingual data are also ava...
 
-### [Tracing and Taming Hallucinated Terms via Subsequence-Association Filtering and Breadth-Aware Selection for LLM Query Expansion](http://arxiv.org/abs/2610.13810v1)
-_Amit Kumar Jaiswal, Sagar Uprety, Prayag Tiwari_ • 2026-10-09
+### [Self-Evolving Agent Harness](http://arxiv.org/abs/2610.18813v1)
+_Chuyang Wei, Haoxiang Guan, Minghang Zhu, Kexin Zhou, Jiyan He, +3 more_ • 2026-10-13
 
-Large language models (LLMs) are now a standard source of query expansion terms but they hallucinate. They inject non existent entities and off-topic terms that add ranking noise and can hurt strong retrievers. Existing remedies such as corpus grounding, mutual verification and preference alignment treat hallucinate...
+Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admissio...
 
-### [Error Rate is Not Enough: Costs of Augmentation in Low-Resource ASR](http://arxiv.org/abs/2610.13807v1)
-_Katsumi Ibaraki, David Chiang_ • 2026-10-09
+### [Optimizing Team Behavior via Extremum-seeking Control in Multi-agent Reinforcement Learning](http://arxiv.org/abs/2610.18808v1)
+_Svar Rajankumar Patel, Kshitij Jerath_ • 2026-10-13
 
-Data augmentation is standard practice for low-resource automatic speech recognition (ASR), but its benefits are almost always reported as aggregate error rates, leaving open why and when a method helps. On four low-resource languages and English at five data sizes, we cross two augmentations that modify existing au...
+In cooperative Multi-Agent Reinforcement Learning (MARL), agents must learn to coordinate their actions to achieve shared objectives. A key indicator of effective coordination is behavioral diversity, i.e., the agents' potential to enact distinct yet complementary control policies given the same set of observations....
 
-### [FORTE: A Production Framework for Feature Evaluation and Deprecation in Industrial Recommender Systems](http://arxiv.org/abs/2610.13806v1)
-_Vishnu Arun, Adam Obeng, Tianyou Wang, Zilin Ren, Mukuntha Narayanan Sundararaman, +5 more_ • 2026-10-09
+### [SkillScaffold: Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection](http://arxiv.org/abs/2610.18807v1)
+_Wenlin Zhong, Hao Wang, Kun Yuan, Fan Yang, Jinluan Yang, +4 more_ • 2026-10-13
 
-Production recommender systems have feature-lifecycle asymmetry: adding new features must produce gains on some metric, while feature removal must not regress any metric. In practice, feature deprecation is hard to prioritize as a feature can fail to be removed if it interacts with other features, its importance cha...
+Agentic reinforcement learning (RL) enables large language models (LLMs) to learn from multi-turn interactions with verifiable outcomes. Textual skills can improve exploration by distilling prior interactions into reusable guidance. However, existing skill-based RL approaches often either assume skill injection is b...
 
-### [REFLECT: Role-Aware Detection of Sentiment, Emotion, Politeness, and Formality](http://arxiv.org/abs/2610.13797v1)
-_Sangpil Youm, Annabel Stocks Natalias, Hayden Heninger, Leah Jones, Xiaoyang Jin, +2 more_ • 2026-10-09
+### [SEAR: Self-Evolving Agentic Robotics](http://arxiv.org/abs/2610.18792v1)
+_Xinyi Wang, Bangzheng Li, Hanyu Wang, Lin Zhang, Andrea Yaoyun Cui, +3 more_ • 2026-10-13
 
-Detecting communicative meaning in dialogue requires modeling not only lexical content but also the participant-role structures through which sentiment, emotion, politeness, and formality (SEPF) are expressed. Existing approaches rely on contextual language representations while leaving semantic roles implicit. We i...
+Frontier language-model agents can now improve robots on their own: they write control code, test it, and keep what works as skills and memories for the next task. We introduce SEAR (Self-Evolving Agentic Robotics), a framework and benchmark built around two questions. Is the agent really learning, or just trying mo...
 
-### [Not Just an Evaluation: A Case Study of Discourse Particle Sensitivity in Language Models](http://arxiv.org/abs/2610.13794v1)
-_William Sheffield, Jiahui Chen, Amy Zhang, Alex Warstadt, Junyi Jessy Li, +1 more_ • 2026-10-09
+### [Bytes to Threats: Byte-Sequence Transformer For Malware Detection](http://arxiv.org/abs/2610.18787v1)
+_Abdelrahman Yassin Eljamal, Abdeltawab Hendawi_ • 2026-10-13
 
-Discourse particles subtly shape the flow of discourse by reflecting conversational context and interlocutor attitudes, often leaving the truth-conditional meaning untouched. They are also often polyfunctional, with distinct senses which partially overlap with other particles; for example, the exclusive use of Engli...
+Existing malware detection approaches heavily rely on handcrafted features derived from static or dynamic analysis of the executable files. These methods require specialized domain expertise, dedicated analysis tools, and time-consuming analysis, which limits their scalability and robustness in the face of the incre...
 
-### [OccludeBench: Can VLMs Find What's Missing?](http://arxiv.org/abs/2610.13790v1)
-_Jasin Cekinmez, Addison J. Wu, Ryo Mitsuhashi, Linrong Cai, Xingyu Fu, +1 more_ • 2026-10-09
+### [Where Do LLM Ensemble Gains Come From? Decomposing Candidate Value, Diversity, and Aggregation](http://arxiv.org/abs/2610.18786v1)
+_Donghwan Kim_ • 2026-10-13
 
-How well can vision-language models (VLMs) reason about what is missing from an image? We study this question with OccludeBench, a manually curated benchmark for recovering fully occluded objects from the visual evidence that remains. OccludeBench distinguishes direct cases, where the hidden object must be recovered...
+LLM ensemble gains are often measured against a single baseline, but the value attributed to additional candidates can change with the comparison used. We study an LLM aggregator under four matched conditions: Direct (no candidates), Single-slot (one candidate in a multi-slot interface), Duplicate (one candidate rep...
 
-### [Your Discrete Graph Diffusion Model is Secretly Memorizing](http://arxiv.org/abs/2610.13786v1)
-_Adarsh Jamadandi, Nicolas Keriven_ • 2026-10-09
+### [Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents](http://arxiv.org/abs/2610.18784v1)
+_Yuchen Lu, Julian McAuley, Lei Zhang_ • 2026-10-13
 
-Discrete graph diffusion models (GDMs) corrupt the graph structure by adding noise independently to nodes and edges under a Markovian noise model. In the unconditional setting without node features, an equivariant denoiser trained on a single graph is able to generate novel graphs and sample-level metrics such as ed...
+Long-horizon agents accumulate progress in persistent task state, yet repeatedly process interaction histories describing how that progress was achieved. This raises a natural question: can long-horizon context instead be organized around reusable progress rather than the history that produced it? In this paper, we...
 
-### [UkrMeme: Multimodal Explainable Persuasion Detection in Ukrainian Memes](http://arxiv.org/abs/2610.13783v1)
-_Nazar Andrushko, Vera Schmitt, Veronika Solopova_ • 2026-10-09
+### [BLADE: Auditing Information Use for Failure Attribution in LLM Multi-Agent Systems](http://arxiv.org/abs/2610.18780v1)
+_Xiaoguang Guo, Yaohao Long, Chuxu Zhang_ • 2026-10-13
 
-Memes play a central role in modern online communication, especially in contexts of political conflict where visual and textual cues combine to convey persuasive messages. We study persuasive technique detection in Ukrainian memes using vision-language models (VLMs). We introduce UkrMeme, a dataset of 200 organicall...
+Large language model multi-agent systems extend individual agents' capabilities through collaboration across specialized roles, tools, and workflows. Yet collaboration makes failures harder to diagnose: one agent may misinterpret a correct result while others carry the mistake forward. Failure attribution therefore...
 
-### [ReplaySSM: Cache SSM Inputs, Not State](http://arxiv.org/abs/2610.13778v1)
-_Ze-Wei Liou, Harris Nover, Amey Naik, Andrii Skliar, Igor Shovkun, +2 more_ • 2026-10-09
+### [Jeva: System One Models from First Principles](http://arxiv.org/abs/2610.18773v1)
+_Qi Li, Xinchao Wang_ • 2026-10-13
 
-State-space models (SSMs) maintain a fixed-size recurrent state, but reading and writing it at every decoding step can bottleneck hybrid models. This eager state management causes large state I/O with low arithmetic intensity, leaves speculative decoding no cheap rollback, and feeds state quantization error into sub...
+System one models enable direct, low-latency decision-making. Yet recent practice of predicting an answer from serialized text does not, by itself, respect the structure of a decision problem. We argue that current designs underemphasize four important structural requirements. (i) null-aware: Models should distingui...
 
-### [DualQuant: Dual-scale Calibration-free Weight-and-Activation Quantization for LLMs](http://arxiv.org/abs/2610.13767v1)
-_Mahsa Salmani, Sayeh Sharify, Hesham Mostafa_ • 2026-10-09
+### [Rubrics from the Task, Verdicts from Evidence: Pointwise Rubric Rewards with Tool-Augmented Judges](http://arxiv.org/abs/2610.18766v1)
+_Tianci Liu, Haoyu Wang_ • 2026-10-13
 
-Low-bit inference on accelerators with native 4-bit support requires quantizing both weights and activations to realize the full throughput gains these formats provide. While post-training weight quantization has been extensively studied, activation quantization remains considerably more challenging and typically re...
+Rubric-based reward models (RMs) evaluate responses against explicit criteria. However, existing methods often derive criteria from observed response candidates, introducing response-induced bias that may limit rubric generalizability. Their judges also struggle with mechanical constraints when relying on reading al...
 
-### [When Edge Independence Fails: Joint Graph Diffusion with Latent Sociability Priors](http://arxiv.org/abs/2610.13765v1)
-_Adarsh Jamadandi, Nicolas Keriven, Aline Roumy_ • 2026-10-09
+### [Looking Complete Is Not Being Grounded: Evaluating LLM Sitreps Against Human-Authored Situation Reports](http://arxiv.org/abs/2610.18762v1)
+_Sachin Kumar_ • 2026-10-13
 
-Discrete graph diffusion models corrupt graph structure through independent edge updates with a Markovian noise model. Combined with the exchangeability requirement on the output distribution, the terminal prior is necessarily an Erdős--Rényi (E-R) random graph. This has a fundamental consequence for unconditional g...
+Evaluation for automatic crisis reporting should measure what practitioners need, not what is convenient to compare. Through LLM-assisted, author-approved content analysis, we derive a 15-slot information schema from professional humanitarian situation reports using qualitative content analysis, then evaluate 121 hu...
 
-### [Matched-Context Group Policy Optimization for LLM Agent Training](http://arxiv.org/abs/2610.13755v1)
-_Chenxu Zhang, Yaorui Shi, Wenlong Zhang, Jianchao Tan, Zihan Wang, +1 more_ • 2026-10-09
+### [Beyond the Verdict: Agentic Code Judging with Verifiable Feedback](http://arxiv.org/abs/2610.18760v1)
+_Zheye Deng, Sha Li, Changlong Yu, Xin Liu, Qin Lu, +2 more_ • 2026-10-13
 
-Training long-horizon language model agents requires assigning credit to intermediate decisions from sparse terminal feedback. Within a finite group of sibling rollouts, useful action comparisons depend on their context, evidence for both alternatives, and how that evidence enters learning. We propose Matched-Contex...
+Test-time scaling for large language models (LLMs) can involve generating multiple candidate solutions for selection or revising an earlier attempt. To guide selection and revision, we need a verifier that can estimate candidate correctness and provide evidence of failure. In competitive programming, however, offici...
 
-### [A Privileged Teacher That Only Scores Cannot Search: Critique-Conditioned On-Policy Self-Distillation for Reasoning](http://arxiv.org/abs/2610.13744v1)
-_Mayug Maniparambil, Ayush Rai, Ekansh Verma, Noel E. O'Connor, Fergal Reid_ • 2026-10-09
+### [PreciseCoder: Faithful and Generalizable Debugging Beyond Unit-Test Rewards](http://arxiv.org/abs/2610.18755v1)
+_Yunkai Zhan, Miaosen Chai, Shangshang Wang, Jike Zhong, Yuqing Yang, +3 more_ • 2026-10-13
 
-On-policy self-distillation promises to replace the sparse outcome signal of verifiable-reward RL with dense token-level credit: a teacher conditioned on the reference solution scores the student's own rollout, and the resulting distributional shift is distilled back into the policy. We investigate whether this scor...
+Reinforcement learning (RL) from unit tests is the common recipe for post-training code models, but a unit test only asks whether the final program passes. We analyze what this unit-test-only reward teaches a model during debugging and find that, while it raises pass rates, it also teaches the model to edit more and...
 
-### [SafeDiSTL: Decomposing Joint Constraints for Safe Multi-Agent Reinforcement Learning](http://arxiv.org/abs/2610.13737v1)
-_Hongrui Zheng, Aditya Singh, Rahul Mangharam_ • 2026-10-09
+### [SolBehave: Evaluating the Behavioural Correctness of LLM-Generated Smart Contracts](http://arxiv.org/abs/2610.18745v1)
+_Giovanni Pio Delvecchio, Stefano Fantazzini, Giacomo Frisoni, Gianluca Moro, Lorenzo Bacchiani, +2 more_ • 2026-10-13
 
-Cooperative multi-agent tasks often impose constraints on a shared objective or collective safety. A team level violation cost function can measure this constraint outcome, but does not distinguish which agents' actions most strongly influence that violation. We present SafeDiSTL, a constrained multi-agent reinforce...
+Large language models increasingly generate Solidity smart contracts that, once deployed, can never be patched, making a single latent fault permanent and exploitable. Yet current evaluations mostly ask only whether generated code compiles. We introduce SolBehave, a benchmark for evaluating the correctness of model-...
 
-_snapshot taken at 2026-10-13T19:56:54+00:00_
+_snapshot taken at 2026-10-14T18:09:16+00:00_
