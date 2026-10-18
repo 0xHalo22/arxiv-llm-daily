@@ -1,4 +1,4 @@
-# arxiv LLM daily — 2026-10-17
+# arxiv LLM daily — 2026-10-18
 
 the 30 most recent papers from cs.CL and cs.AI.
 
@@ -152,4 +152,4 @@ _Hanane Nour Moussa, Doeun Lee, Sachin Kumar_ • 2026-10-15
 
 Reinforcement learning has become a common post-training technique to improve the accuracy of LLMs on verifiable tasks. However, such training can narrow the set of solutions the model can produce. Several approaches have attempted to address this behavior-sharpening effect, but they often optimize metrics that do n...
 
-_snapshot taken at 2026-10-17T16:38:40+00:00_
+_snapshot taken at 2026-10-18T16:52:45+00:00_
