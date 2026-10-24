@@ -1,4 +1,4 @@
-# arxiv LLM daily — 2026-10-23
+# arxiv LLM daily — 2026-10-24
 
 the 30 most recent papers from cs.CL and cs.AI.
 
@@ -152,4 +152,4 @@ _Khaled Waleed Dawoud, Muhammad Zaigham Zaheer, Khan Muhammad, Muhammad Haris Kh
 
 Vision-Language Models (VLMs) have shown strong potential for video anomaly detection, but dense frame-level inference makes them impractical for real-time deployment. Existing acceleration commonly relies on uniform sampling, which ignores content dynamics and can either waste computation on static segments or miss...
 
-_snapshot taken at 2026-10-23T17:56:51+00:00_
+_snapshot taken at 2026-10-24T16:56:03+00:00_
