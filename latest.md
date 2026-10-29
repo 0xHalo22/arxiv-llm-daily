@@ -1,4 +1,4 @@
-# arxiv LLM daily — 2026-10-28
+# arxiv LLM daily — 2026-10-29
 
 the 30 most recent papers from cs.CL and cs.AI.
 
@@ -152,4 +152,4 @@ _Fariba Dehghan, Sebastian Stein, Vahid Yazdanpanah, Stephanie Gauthier_ • 202
 
 Online resource allocation faces two coupled challenges: (1) allocating scarce resources efficiently under uncertain future demand, and (2) ensuring that agents report task valuations and requirements truthfully (strategyproofness). Reinforcement Learning (RL) adapts allocation decisions through experience but does...
 
-_snapshot taken at 2026-10-28T19:05:22+00:00_
+_snapshot taken at 2026-10-29T19:11:24+00:00_
