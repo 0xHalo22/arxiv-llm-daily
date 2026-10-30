@@ -1,155 +1,155 @@
-# arxiv LLM daily — 2026-10-29
+# arxiv LLM daily — 2026-10-30
 
 the 30 most recent papers from cs.CL and cs.AI.
 
-### [Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction](http://arxiv.org/abs/2610.37668v1)
-_Prakhar Kaushik, Soumava Paul, Alan Yuille_ • 2026-10-27
+### [Elucidating the Design Space of LM Data Attribution](http://arxiv.org/abs/2610.40655v1)
+_Steven Yu, Sheng-Yu Wang, Kimia Hamidieh, Antonio Torralba, David Bau_ • 2026-10-29
 
-Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elements with a first-order spatial color field for efficient 3D scene...
+Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution algorithm fails. To diagnose these failures, we explore the...
 
-### [ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning](http://arxiv.org/abs/2610.37666v1)
-_Chaehyun Kim, Chi-Pin Huang, Jisoo Kim, Min-Hung Chen, Yu-Chiang Frank Wang, +2 more_ • 2026-10-27
+### [Rethinking Neural Thickets Without Weight Perturbations](http://arxiv.org/abs/2610.40649v1)
+_Nicolas Dufour, Elouan Gardès, Amil Dravid, Patrick Pérez, Loic Landrieu_ • 2026-10-29
 
-Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fu...
+The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block...
 
-### [Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness](http://arxiv.org/abs/2610.37657v1)
-_Igor Shilov, Xiaoxue Yang, Alexander Panfilov, Evgenii Kortukov, Matthieu Meeus, +4 more_ • 2026-10-27
+### [Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers](http://arxiv.org/abs/2610.40647v1)
+_Jiongfan Yang, Weichen Fan, Haiwen Diao, Zhongang Cai, Ziwei Liu_ • 2026-10-29
 
-We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted content without followi...
+Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, wh...
 
-### [Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops](http://arxiv.org/abs/2610.37656v1)
-_Aakash Sarkar, Ananya Mukherjee, Motoshige Sato_ • 2026-10-27
+### [Luggage re-identification: A study of strategies towards a real-world application](http://arxiv.org/abs/2610.40643v1)
+_Quentin Dhôte, Romaric Audigier_ • 2026-10-29
 
-Relations compose through the entity they share - Alice is Bob's mother and Bob is Carol's father, so Alice is Carol's grandmother - and the order matters, since a father's mother is not a mother's father; verifying a composed relation means closing the loop. We show that if each entity's coordinate frame may be rot...
+Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (lost luggage recovery). It enables the association of observations of the same luggage across disjoint camera views in c...
 
-### [KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry](http://arxiv.org/abs/2610.37655v1)
-_Wenqing Peng, Michael Boy, Zhi-Song Liu_ • 2026-10-27
+### [From extreme weather to agricultural consequences with agentic AI](http://arxiv.org/abs/2610.40641v1)
+_Minghan Yu, Mengyu Dai, Yixin Wen, Haizhao Yang_ • 2026-10-29
 
-Atmospheric chemical mechanisms are commonly distributed in the language of the Kinetic PreProcessor (KPP), which generates efficient Fortran or C code but does not fit into the differentiable programming frameworks in which machine-learning models are developed. We present KPPax, a kinetic preprocessor that generat...
+Extreme weather is forecast days ahead, yet its consequences for agriculture remain hard to predict: a forecast says where a storm will strike, not which crops will suffer or how much is at risk, and the records that could tell span many sources. We present WxCrop, the first agent that judges agricultural hazards fr...
 
-### [GEPA-Curator: Curated Learning for Self Improving Agents](http://arxiv.org/abs/2610.37651v1)
-_Zack Yu, Nicholas Lee, Minjae Lee, Lakshya Agarwal, Luca Manolache, +6 more_ • 2026-10-27
+### [Probing Spatial State Representations in Visual Foundation Models](http://arxiv.org/abs/2610.40636v1)
+_Baiqiao Yin, Zhongang Cai, Ruisi Wang, Qiwei Liang, Lei Yang, +1 more_ • 2026-10-29
 
-Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollouts, but agentic failures can also come from prompt weaknesses, harness limitations, stochastic ex...
+An observer sees only part of the surrounding world, yet must keep track of what lies beyond the current view. Spatial perception therefore involves more than recognizing individual images: it calls for a persistent spatial state that is updated under self-motion and used to guide action. Do visual foundation models...
 
-### [Can LLMs Uncover Hidden Physical Laws through Free Exploration?](http://arxiv.org/abs/2610.37649v1)
-_Zhen Yang, Wen Wang, Xander Xu, Ying-Cong Chen_ • 2026-10-27
+### [ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender](http://arxiv.org/abs/2610.40627v1)
+_Qiyao Ma, Xiaodong Liu, Weiwei Yang, Mingqian Feng, Chengquan Guo, +7 more_ • 2026-10-29
 
-Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with altered physical laws, can large language models (LLMs) notice unexpected behavior, such as heavier objects falling more slowly, and discover the law through experiments without being told what to i...
+Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often. This brittleness has a mechanistic root: Alignment is shallow, with safety behavior concentrated in a model's first few outp...
 
-### [MuonGS: Pretraining LLMs with Relaxed Weight-Norm Control](http://arxiv.org/abs/2610.37647v1)
-_Athanasios Glentis, Dawei Li, Mingyi Hong_ • 2026-10-27
+### [Testimony from Timelines: Evidence-Grounded Significance Testing of Temporal Clinical Hypotheses](http://arxiv.org/abs/2610.40619v1)
+_Chengyang He, Wenlong Zhang, Koduvayur Subbalakshmi, Ping Wang_ • 2026-10-29
 
-Weight decay and explicit weight-norm constraints improve optimizer performance in language model pretraining, yet a unified understanding of why such control helps and how much is needed remains incomplete. We analyze norm control in Muon over the entire training trajectory using the \emph{accumulated effective lea...
+Ask a language model whether sales tend to dip after a product recall, or whether one side effect tends to follow another after a vaccine, and it answers in a fluent sentence that reads like a finding, with no test behind it. Assertions about how events unfold across many cases fill the Web, and each is a temporal h...
 
-### [Multi-State Linear Attention with Generalized Second-Order Routing](http://arxiv.org/abs/2610.37645v1)
-_Hee Seung Hwang, Sanghyuk Chun, Xindi Wu, Olga Russakovsky, Zhiwei Deng_ • 2026-10-27
+### [TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races](http://arxiv.org/abs/2610.40613v1)
+_Tom Sander, Pierre Fernandez, Itai Gat, Haiming Bao, Jiaxin Shi, +9 more_ • 2026-10-29
 
-Self-attention plays a key role in long-sequence modeling, but its quadratic time complexity fundamentally limits the scaling of Large Language Models. Recently, Multi-State Linear Attention (MSLA) mechanisms have been proposed to make sequence modeling more efficient by splitting the context into segments and compr...
+We present TextSeal2, a distortion-free watermark for large language models that keeps its signal under speculative decoding: tokens that replace rejected drafts remain watermarked with the same keys, and the acceptance rate is unchanged. It also preserves output diversity and adds no measurable inference latency. I...
 
-### [Metacognitive Decoding: Efficient Inference for Diffusion Language Agents](http://arxiv.org/abs/2610.37642v1)
-_Mingyu Zhao, Shuhang Lin, Ligong Han, Xiaojing Yu, Zhenting Wang, +3 more_ • 2026-10-27
+### [When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder](http://arxiv.org/abs/2610.40611v1)
+_A. J. A. Jubayer Talukder, Mohammad Ariful Haque_ • 2026-10-29
 
-Diffusion language models offer a promising path to efficient agents through parallel token generation. However, efficient interaction requires adapting both where computation is spent and how much text is generated. We introduce a metacognitive controller that guides diffusion generation according to the needs of t...
+Proactive assistants offer short, memory-grounded hints during a conversation, deciding when to assist and what to suggest. Current systems split this between a gate and a larger generator; we evaluate both together on 28,058 decision points. Stage-wise generation scores are oracle-gate ceilings: behind a real gate,...
 
-### [What Improves During Pretraining? Tracking Knowledge Acquisition with Point-in-Time Models](http://arxiv.org/abs/2610.37631v1)
-_Chang Su, Bin Wu, Emine Yilmaz, Yao Lu_ • 2026-10-27
+### [Collaborative AI agents for autonomous experimental research with solid-state quantum spins](http://arxiv.org/abs/2610.40589v1)
+_El Mustapha Mansouri, Eikichi Kimura, Masato Koga, Keigo Arai_ • 2026-10-29
 
-Language models pretrained on web corpora collected over multiple years learn both general and domain-specific knowledge. How these different kinds of knowledge are learned as pretraining progresses remains unclear. Recent point-in-time models trained on web snapshots from different years provide a way to probe how...
+An autonomous research laboratory could conduct an entire study, from formulating questions to preparing manuscripts. Artificial intelligence (AI) offers one route towards this goal. Recent AI systems take on several research roles, but may draw conclusions that the evidence does not support. Here, we present an aut...
 
-### [Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions](http://arxiv.org/abs/2610.37624v1)
-_Anouar Imel, Imad Charradi, Abderrahman Sghir, Khalil El Khammar_ • 2026-10-27
+### [Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In](http://arxiv.org/abs/2610.40588v1)
+_Leonidas Raghav_ • 2026-10-29
 
-When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory keep? Two natural heuristics keep the rarest claims or the claims relevant to the decision criteria. On hidden-profile tasks both look attractive, because how widely a fact is held is confounded with w...
+When AI agents share channels and credentials, one agent can press another to break its operator's rule, a first step towards collusion. Output filters check only what an agent has already written. Can an overseer tell beforehand that an agent is about to give in? We show that a linear probe on the agent's activatio...
 
-### [VideoLVR: Latent Visual Reasoning over Grounded Video Evidence](http://arxiv.org/abs/2610.37613v1)
-_Shilong Li, Xingyuan Bu, Hao Shi, Yun Xing, Weixin Feng, +2 more_ • 2026-10-27
+### [Multistatic ISAC with Deep Learning-Based Clutter Suppression for 5G and Beyond](http://arxiv.org/abs/2610.40586v1)
+_Yalin E. Sagduyu, Tugba Erpek, Sastry Kompella_ • 2026-10-29
 
-Chain-of-thought reasoning has substantially advanced video understanding in multimodal large language models (MLLMs). However, language-based reasoning traces do not provide a reliable mechanism for models to revisit relevant visual evidence, leading to visual forgetting and impairing their ability to reason over v...
+Integrated sensing and communications (ISAC) systems using 5G and beyond signals of opportunity enable joint wireless sensing and communication using shared infrastructure and spectrum resources. While multistatic ISAC can increase sensing coverage with spatially distributed receivers, dense and dynamic clutter can...
 
-### [EnvSched: Environment-Aware Scheduling for Rollout-Efficient Agent Reinforcement Learning](http://arxiv.org/abs/2610.37609v1)
-_Sihan Yang, Weichen Bai, Ruichuan An, Yiming Cheng, Zhiyuan Feng, +7 more_ • 2026-10-27
+### [VeriCUA: Verification as Agentic Exploration for Computer-Using Agents](http://arxiv.org/abs/2610.40578v1)
+_Qiushi Sun, Da Yu, Alexander Knop, Amer Sinha, Lingpeng Kong, +3 more_ • 2026-10-29
 
-As executable environments for language agents scale, generating and verifying their rollouts becomes increasingly expensive. Under finite rollout budgets, this raises an important question: can data management at the environment level make agentic reinforcement learning (RL) more efficient by organizing, evaluating...
+Building and scaling computer-using agents (CUAs) across desktop, mobile, and web environments requires reliable task-completion verification for data curation, evaluation, and reinforcement learning. Typical automated approaches prompt vision-language models (VLMs) to judge trajectories or generate programs to insp...
 
-### [Beyond Answer Changes: Matched Same-Class Controls for Local Audio Evidence](http://arxiv.org/abs/2610.37605v1)
-_Yunuo Wang, Maoyuan Chen, Yuanjin Huang, Xing Liu_ • 2026-10-27
+### [Multi-View MoE: Letting Every Router Shape Expert Computation](http://arxiv.org/abs/2610.40577v1)
+_Zelin Zhao, Tianchi Ma, Junyuan Shang, Shuohuan Wang, Dianhai Yu_ • 2026-10-29
 
-For audio-language models, an answer change after a local sound-event edit can reflect a response to the event's class, sensitivity to waveform rewriting, or both. We compare matched same-class and different-class replacements of a queried event. Both use the same interval, level estimate, donor fitting, and crossfa...
+Sparse mixture-of-experts (MoE) models expand parameter capacity by activating a small subset of experts per token. Expert selection directly affects model capabilities under a fixed active-expert budget. Dense evaluation of all experts reveals weak agreement between single-router rankings and expert-utility evaluat...
 
-### [MoI-Bench: A Benchmark for Image Generation and Editing on Mobile Devices](http://arxiv.org/abs/2610.37599v1)
-_Kailai Feng, Haoxiang Rao, Yuxiang Wei, Bo Chen, Junsong Li, +3 more_ • 2026-10-27
+### [PIVOT: Progressive Intervention via Online Teacher Correction](http://arxiv.org/abs/2610.40576v1)
+_Zhihao Yang, Boyuan Zheng, Puhui Tan, Yukun Chen, Kuan Zhang, +5 more_ • 2026-10-29
 
-Developing on-device image models requires considering practical user needs, task types and device resource constraints. However, existing benchmarks provide limited guidance on identifying capability gaps between on-device models and server-side models. We introduce MoI-Bench, a benchmark grounded in mobile user ne...
+Reinforcement learning from verifiable rewards (RLVR) is limited by sparse outcome-level feedback on hard reasoning tasks: when all rollouts in a group fail, rewards provide no learning signal. Stronger teachers can provide additional guidance, but this raises a central question: how can such signals be incorporated...
 
-### [GAS-PFN: Graph-Aware Spatiotemporal Prior-Data Fitted Networks for Zero-Shot Traffic Forecasting](http://arxiv.org/abs/2610.37598v1)
-_Joseph Natter, Long Vu, Yifan Zhang, Bobin Deng, Kun Suo, +1 more_ • 2026-10-27
+### [Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation](http://arxiv.org/abs/2610.40574v1)
+_Yifu Luo, Chuang Ma, Zeyu Chen, Enkelejda Kasneci, Qi Chen, +1 more_ • 2026-10-29
 
-Traffic forecasting requires modeling complex temporal dynamics and the spatial dependencies imposed by road topology. Supervised graph-based models achieve strong performance, but are often trained for a particular dataset and sensor graph, making deployment to new or evolving networks costly. Prior-Data Fitted Net...
+On-policy Self-distillation (OPSD) has proven effective for post-training large language models by constructing a teacher conditioned on privileged references. However, existing approaches keep the teacher fixed either throughout training by consistently exposing it to the full reference, or within each response by...
 
-### [Understanding the limits of latent world models](http://arxiv.org/abs/2610.37588v1)
-_Rodrigo Gonzalez Laiz, Steffen Schneider_ • 2026-10-27
+### [Gym-Anything for Robotics: Scaling physical simulations with digital agents](http://arxiv.org/abs/2610.40565v1)
+_Pranjal Aggarwal, Sean Welleck_ • 2026-10-29
 
-World models are widely proposed as core components for enabling agents to reason over long temporal and spatial horizons. Yet current evaluations often emphasize task performance while providing limited insight into whether learned world models acquire predictive latent dynamics that reflect the underlying structur...
+Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world. However, despite decades of progress, available simulations cover only a narrow range of real-world tasks and physical phenomena. The core bottleneck is that creating better simulations requi...
 
-### [Timestral](http://arxiv.org/abs/2610.37585v1)
-_Adrien Petralia, Alexandre Gavaudan, Artjom Joosen, Etienne Goffinet, Richard Kurle, +351 more_ • 2026-10-27
+### [Comparing Human Role-Players and LLM-Simulated Clients in Online Counselling Training: An Analysis of Counselling Patterns](http://arxiv.org/abs/2610.40563v1)
+_Eric Rudolph, Philipp Steigerwald, Jens Albrecht_ • 2026-10-29
 
-We introduce Timestral, a family of four time series foundation models for probabilistic forecasting, with 5M, 28M, 123M, and 209M parameters. Timestral sets a new state of the art on GIFT-Eval, TIME, and fev-bench, where Timestral-209M and Timestral-123M take the top two places on every metric. We achieve this with...
+This study investigates the capabilities of Large Language Models to simulate counselling clients in educational role-plays in comparison to human role-players. Initially, we recorded role-playing sessions, where novice counsellors interacted with human peers acting as clients, followed by role-plays between humans...
 
-### [REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation](http://arxiv.org/abs/2610.37584v1)
-_Yuxi Huang, Silin Zhou, Chenhao Wang, Zihan Li, Gangming Guo, +3 more_ • 2026-10-27
+### [FARMS: A Verifiable Foundation for Automated Computational Science](http://arxiv.org/abs/2610.40560v1)
+_Di Wu, Ling Liang, Haizhao Yang_ • 2026-10-29
 
-Personalized recommendation depends on learning semantic and collaborative relations among items from online content and user interactions. Generative recommendation (GR) offers a promising paradigm by autoregressively generating discrete semantic IDs (SIDs) of items. However, randomly initialized SID token embeddin...
+Automated computational science could accelerate discovery by selecting, adapting and developing numerical methods. This prospect requires mathematical knowledge that AI systems can interpret and reuse with explicit guarantees. Here we present FARMS, a faithful and efficient foundation that transforms computational...
 
-### [TeamGym: A Gym for Team Decision-Making by AI Agents with Distributed Information](http://arxiv.org/abs/2610.37571v1)
-_Chanwoo Park, Jaywoong Jeong, Zachary Wojtowicz, Yubin Kim, Taekyun Lee, +2 more_ • 2026-10-27
+### [Advancing Clinical Genomic Analysis with a Skill-Centred Agent](http://arxiv.org/abs/2610.40556v1)
+_Qiaoyu Zheng, Weike Zhao, Yanjie Fan, Ye Cao, Mengqi Jiang, +8 more_ • 2026-10-29
 
-Many real-world decisions require teams to integrate information distributed across participants. Yet AI agents are still primarily trained and benchmarked in isolation. We introduce TeamGym, an environment for evaluating and training language model-based agents on team decision-making problems constructed from real...
+Clinical genomic analysis requires experts to integrate evolving guidelines, databases, and computational evidence. As sequencing has become increasingly accessible, this complex and labor-intensive process has become a major bottleneck to the timely use of genomic information in clinical decision-making. To fill th...
 
-### [Gym-Anything-RT: Scaling Real-Time Environments for Vision-Language Agents](http://arxiv.org/abs/2610.37567v1)
-_Pranjal Aggarwal, Sean Welleck_ • 2026-10-27
+### [Ramanujan Challenge Results: AI-Assisted Evaluation Pipeline for Multi-Format Proofs](http://arxiv.org/abs/2610.40551v1)
+_Alan Sorani, Ashvni Narayanan, Michael Shalyt, Tali Monderer, Rotem Kalisch, +6 more_ • 2026-10-29
 
-AI agents have made substantial progress in domains where they have a non-trivial amount of time to deliberate between actions, such as mathematics, software engineering, and performing tasks on desktop applications. It is less clear how such models fare in settings that demand real-time interaction, such as playing...
+As AI's mathematical capabilities rapidly improve, meaningful benchmarks are shifting from university-level problems and math olympiads to research-level mathematics. The Ramanujan Challenge is a benchmark comprised of research-level problems in number theory, including unpublished results and open conjectures. It p...
 
-### [When uncertainty quantification fails: structural vulnerabilities and corrections for selective prediction under clinical class imbalance](http://arxiv.org/abs/2610.37561v1)
-_Walter Endrizzi, Flavio Ragni, Raffaele Marchesi, Stefano Bovo, Monica Moroni, +2 more_ • 2026-10-27
+### [Retrieval as Traversal: Value-Indexed Memory for Stateful Long-Context Agents](http://arxiv.org/abs/2610.40545v1)
+_Daniel Strauß, Zhenshan Bing, Alois Knoll_ • 2026-10-29
 
-Background. Selective prediction systems improve the safety of clinical artificial intelligence by deferring ambiguous cases to human experts while automating high-confidence decisions. However, this safety mechanism relies entirely on the premise that uncertainty scores accurately reflect clinical ambiguity. In pro...
+Long-context models repeatedly solve closely related retrieval problems. Attention or global retrieval can retain large stores, but each forward pass again searches for what matters. Recurrent compression avoids this search only by deciding earlier what information to preserve. Neither mechanism directly exploits th...
 
-### [Kinematic Constraint-Referenced Evaluation for Articulated Object Manipulation](http://arxiv.org/abs/2610.37550v1)
-_Baptiste Bonin, Caro Strickland, Audrey Durand_ • 2026-10-27
+### [On the Fundamental Limits of Prefill-Based Decoding Length Prediction](http://arxiv.org/abs/2610.40541v1)
+_Haowen Shi, Xuzhe Yan, Fahao Chen, Peng Li_ • 2026-10-29
 
-Manipulation policies are evaluated predominantly by binary task success, which cannot tell whether the commanded gesture is the one the object's kinematics admit. We introduce Constraint-Referenced Strategy (CRS), which projects the commanded end-effector twist onto the object's joint axis, separating progress alon...
+Predicting how many tokens a large language model (LLM) will decode, using only prefill-phase hidden states, is a key primitive for inference scheduling. We show that current benchmarks conflate predictor quality with task hardness: when the target model, dataset, or sampling configuration changes, reported accuracy...
 
-### [When, Where, and What to Correct: Human-Guided Adaptive Residual Correction for Robot Policies](http://arxiv.org/abs/2610.37547v1)
-_Anukriti Singh, Maxime Caniot, Pratap Tokekar, Firas Abi-Farraj_ • 2026-10-27
+### [Efficient Scalable Oversight via Rewinding](http://arxiv.org/abs/2610.40535v1)
+_Ziyi Guan, Yael Tauman Kalai, Ron Rothblum, Zoe Xi_ • 2026-10-29
 
-Imitation policies that reliably execute most of a manipulation trajectory can still fail in localized regions requiring last-mile precision. Updating the full policy or exploring residual actions everywhere treats this local failure as a global learning problem. We introduce Adaptive Residual Correction (ARC), a li...
+Scalable oversight asks how a weak verifier can check the outputs of computations performed by more powerful AI systems. One proposed approach uses relativizing interactive proofs, in which a weak verifier checks the output of a complex oracle-aided computation by interacting with one or more powerful provers. A pro...
 
-### [GroundControl: Satellite-Conditioned Multi-View Diffusion for Reconstruction-Free Novel View Synthesis](http://arxiv.org/abs/2610.37545v1)
-_Akshay Krishnan, Matias Turkulainen, Jamie Wynn, Zawar Qureshi, Mohamed Sayed, +5 more_ • 2026-10-27
+### [Homebrewed SLMs: Autoregressive and Masked Diffusion Language Models Built at Home for Portuguese](http://arxiv.org/abs/2610.40533v1)
+_Pedro Carvalho Brom_ • 2026-10-29
 
-Multi-view or video diffusion models have recently emerged as state-of-the-art approaches for novel-view synthesis from sparse image collections. While they can produce high quality images, they tend to hallucinate unrealistic spatial layouts when synthesizing views outside the input views (scene extrapolation). We...
+Building a language model of one's own no longer requires a data centre. This tutorial trains one from scratch, tokenizer included, on one consumer GPU, and shows how to tell whether it is good for the tasks of a specialist domain. It proposes no new method. It releases a tested Python package and two notebooks in B...
 
-### [Which Hand Was Late? Diagnosis for Robot Failure Recovery in Bimanual Tool Use](http://arxiv.org/abs/2610.37533v1)
-_Baptiste Bonin, Caro Strickland, Audrey Durand_ • 2026-10-27
+### [BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing](http://arxiv.org/abs/2610.40532v1)
+_Xiangyu Xu, Bangshuai Peng, Ziyi Liu, Mengjie Zhao, Chenhao Lu, +3 more_ • 2026-10-29
 
-Failure diagnosers for robot manipulation are increasingly vision--language models (VLMs), trained and evaluated on single-arm failures produced by perturbing a successful demonstration. Bimanual tool use adds failures of other kinds: a tool that slips out of its socket while still held, two correct gestures made at...
+How effectively can vision-language-action (VLA) models learn diverse language-conditioned behaviors as training data scales? Investigating this question requires large and varied robot datasets, whose collection on physical robots remains costly. We introduce BURGER, a language-conditioned robotic drawing benchmark...
 
-### [The Structure Gap: When More Data Cannot Replace Structured Reasoning](http://arxiv.org/abs/2610.37523v1)
-_Kheer Sagar Patel, Mojtaba Soltanalian_ • 2026-10-27
+### [IndicIPR-QA: A Benchmark for Extractive Question Answering on Indian IPR Laws](http://arxiv.org/abs/2610.40518v1)
+_M. Mohaiminul Islam, Muhammad Abulaish_ • 2026-10-29
 
-A persistent belief in modern AI is that sufficiently large learners trained on sufficiently much data can make explicit domain knowledge optional. This paper examines a limitation of that belief. We define structure-encoded problems: tasks whose input-output map is determined, or sharply constrained, by known struc...
+Legal Question Answering (QA) over statutory texts is a challenging task in Natural Language Processing (NLP), especially in low-resource settings with complex legal systems. It requires answers that are precise and grounded in the law. However, to the best of current knowledge, no existing extractive QA benchmark p...
 
-### [Orthogonal and Parametrized Multi-Attribute Steering of LLMs](http://arxiv.org/abs/2610.37517v1)
-_Remy Ogasawara, Cullen Anderson, Narmeen Fatimah Oozeer, Foad Namjoo, Amir Abdullah, +2 more_ • 2026-10-27
+### [How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates](http://arxiv.org/abs/2610.40516v1)
+_Max Neuwinger, Hanna Yukhymenko, Imanol Schlag_ • 2026-10-29
 
-Activation steering offers an effective and efficient way to modify an LLM's behavior at inference time. However, it remains unclear how to apply steering such that the signal is consistently strong and the steering strength has a universally interpretable meaning. We address this first by identifying the most steer...
+Safety alignment for Large Language Models is heavily focused on English with limited multilingual representation, particularly damaging low-resource language performance. Related open training datasets are often limited in size or do not follow region-localized harmful topics to broaden the scope of alignment beyon...
 
-### [Strategyproof Deep Reinforcement Learning for Online Resource Allocation](http://arxiv.org/abs/2610.37504v1)
-_Fariba Dehghan, Sebastian Stein, Vahid Yazdanpanah, Stephanie Gauthier_ • 2026-10-27
+### [A Low-Rank Space Captures Linear Alignment Between LLM and Human Neural Activity During Naturalistic Language Listening](http://arxiv.org/abs/2610.40511v1)
+_Zach Paris, Emily Finn_ • 2026-10-29
 
-Online resource allocation faces two coupled challenges: (1) allocating scarce resources efficiently under uncertain future demand, and (2) ensuring that agents report task valuations and requirements truthfully (strategyproofness). Reinforcement Learning (RL) adapts allocation decisions through experience but does...
+Large language models (LLMs) are increasingly used as computational models of human language processing, yet it remains unclear which components of their representations drive alignment with neural activity. Here, we use ridge reduced-rank regression to identify the brain-predictive subspace of LLM representations:...
 
-_snapshot taken at 2026-10-29T19:11:24+00:00_
+_snapshot taken at 2026-10-30T18:50:27+00:00_
