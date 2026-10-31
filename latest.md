@@ -1,4 +1,4 @@
-# arxiv LLM daily — 2026-10-30
+# arxiv LLM daily — 2026-10-31
 
 the 30 most recent papers from cs.CL and cs.AI.
 
@@ -152,4 +152,4 @@ _Zach Paris, Emily Finn_ • 2026-10-29
 
 Large language models (LLMs) are increasingly used as computational models of human language processing, yet it remains unclear which components of their representations drive alignment with neural activity. Here, we use ridge reduced-rank regression to identify the brain-predictive subspace of LLM representations:...
 
-_snapshot taken at 2026-10-30T18:50:27+00:00_
+_snapshot taken at 2026-10-31T17:54:57+00:00_
