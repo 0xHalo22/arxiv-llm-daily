@@ -1,155 +1,155 @@
-# arxiv LLM daily — 2026-11-04
+# arxiv LLM daily — 2026-11-05
 
 the 30 most recent papers from cs.CL and cs.AI.
 
-### [DreamX: Video Diffusion Model is a Universal Latent Action Learner](http://arxiv.org/abs/2611.05377v1)
-_Jisoo Kim, Chaehyun Kim, Junsu Kim, Jiho Park, Seongchan Kim, +4 more_ • 2026-11-03
+### [A Framework for Context Enrichment and Selective Robustness in LLM Social Agents](http://arxiv.org/abs/2611.06914v1)
+_Mattia Greiche, Reihaneh Rabbany, Maximilian Puelma Touzel_ • 2026-11-04
 
-Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the...
+Researchers use large language models as agents in social simulations, where agents are prompted with observations and background information intended to shape their actions. Yet LLM agents have been shown to substantially change their behavior under meaning-preserving prompt variations, creating a validation proble...
 
-### [From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence](http://arxiv.org/abs/2611.05376v1)
-_Hao Fei_ • 2026-11-03
+### [BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories](http://arxiv.org/abs/2611.06911v1)
+_Fei Lin, Tengchao Zhang, Ziyang Gong, Xiaotong Yu, Bohan Zhang, +13 more_ • 2026-11-04
 
-For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the r...
+Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large Language Models (MLLMs) are increasingly c...
 
-### [Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization](http://arxiv.org/abs/2611.05373v1)
-_Austin Tsai, Saurav Nanda, Ganapathy Parthasarathy, Bhuvnesh Kumar, Parivesh Choudhary_ • 2026-11-03
+### [FrontierPhysics: Evaluating Agents for End-to-End Physics Research](http://arxiv.org/abs/2611.06910v1)
+_Bingran You, Wenjun Ke, Ria Rosenauer, Bo Liu, Wenbo Chen, +67 more_ • 2026-11-04
 
-Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates on-policy sampling, LLM-based rating of the samples together with a teacher's gold response, large-margin preference...
+AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark...
 
-### [Suppressing Misaligned Behaviors in Language Models, Durably](http://arxiv.org/abs/2611.05358v1)
-_Luxi He, Pengcheng Jiang, Jifan Zhang, Jiawei Han, Danqi Chen_ • 2026-11-03
+### [Perceptive Humanoid Motion from Simulation](http://arxiv.org/abs/2611.06908v1)
+_Siyuan Hu, Abulikemu Abuduweili, Yue Meng, Shipeng Liu, Quentin Leboutet, +3 more_ • 2026-11-04
 
-Undesired model behaviors can emerge or re-emerge at any stage of training. Once observed, how effectively can we suppress them? To study this question, we first construct two model organisms--language models deliberately trained to exhibit a specific misalignment--that differ in what triggers the behavior. The narr...
+Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no corpus of such data exists at sufficien...
 
-### [Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits](http://arxiv.org/abs/2611.05355v1)
-_Teerawat Tongloy, Jiraporn Pongsopa, Rangsan Jomtarak_ • 2026-11-03
+### [Occlusion for Free: Detecting Occlusion from the Disagreement Between Two Monocular Distance Cues](http://arxiv.org/abs/2611.06899v1)
+_Chibueze Praise Onyenweaku, Toyibat Adele, Sikirulahi Opeyemi Abdulkareem, Obed Honour Eje_ • 2026-11-04
 
-When a language model answers, we can usually only estimate why. We build a transformer in which every step is a Born measurement - attention $|\langle q|k\rangle|^4$ normalised over each row, a measured product in place of the feed-forward nonlinearity, and a Born readout. With its denominators held at their values...
+Knowing that a pedestrian is occluded is useful to a robot even when the detector cannot recover the hidden pixels, but occlusion estimators are normally trained on occlusion annotations that deployment settings rarely have. We show that occlusion can be read off two distance estimates a camera-only pipeline already...
 
-### [Adversarial Speculative Reasoning Improves Long Horizon Agents](http://arxiv.org/abs/2611.05345v1)
-_Hongyin Luo, Wei Fang, Lijie Yang, Owen Stepan, Daniel Suit, +3 more_ • 2026-11-03
+### [Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure](http://arxiv.org/abs/2611.06888v1)
+_Siyi Yu_ • 2026-11-04
 
-Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding without changing the model behavior. Under this view, the growing effort to train better draft models has been focused solely on acceptance rate. We argue that this view does not hold true for long-hor...
+Automation is often justified as relief from dull, dirty, and dangerous work. I examine how these conditions relate to occupational AI exposure using 21 O*NET items across 754 US occupations. Higher exposure is associated with lower condition scores under a large language model (LLM) measure and AI Occupational Expo...
 
-### [A Circuit for In-Context Learning](http://arxiv.org/abs/2611.05344v1)
-_Andrew Gao, William Gao_ • 2026-11-03
+### [SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification](http://arxiv.org/abs/2611.06876v1)
+_Yulu An, Yifei Feng, Xiangyang Yin_ • 2026-11-04
 
-In-context learning (ICL) lets a pretrained language model perform a task specified by demonstrations in its prompt, with no parameter updates. With arbitrary labels the model must acquire a mapping it cannot have memorized, so the learning happens within a single forward pass. Prior work found candidate parts but n...
+LLM agents use context compaction to manage growing interaction histories, but summarizing long histories with large models can introduce substantial delays. Compaction therefore requires balancing information retention against latency. We observe that structured summary slots can retain information when generated i...
 
-### [Weight-space programming for auditing clinical decision networks](http://arxiv.org/abs/2611.05341v1)
-_Humza Nusrat, Omar Nusrat_ • 2026-11-03
+### [Learning to Decode Linear Codes with Generalized Belief Propagation Network](http://arxiv.org/abs/2611.06874v1)
+_Samira Malek_ • 2026-11-04
 
-Machine learning models in radiotherapy are commissioned by testing them on cases with known answers, which may not reveal a shortcut that the test cases share with the training data. Frontier language models have recently been reported to read and write the raw weights of small neural networks, an ability called we...
+Error correcting codes are a fundamental component of communication systems, enabling reliable data transmission over noisy channels. Recently, neural decoders have demonstrated notable performance gains over classical iterative algorithms. In this paper, we propose a Generalized Belief Propagation Network (GBPNet)...
 
-### [MedPhysBench: A Benchmark for Evaluating Language Models on Medical Physics Calculations and Error Detection](http://arxiv.org/abs/2611.05340v1)
-_Omar Nusrat_ • 2026-11-03
+### [On Turn-Level Best-of-N Sampling for Scaling LLM Agents](http://arxiv.org/abs/2611.06868v1)
+_Jalaj Bhandari, Dhawal Gupta, Hongli Zhan, Zhenting Wang, Varad Pimpalkhute, +3 more_ • 2026-11-04
 
-Medical physicists turn a prescription into a delivered dose and check one another's calculations, because one error in a beam calibration or a monitor-unit (MU) calculation can affect every patient treated with it. MedPhysBench has ten seeded generators of calculation items in radiation therapy, diagnostic imaging,...
+In this work, we evaluate a simple inference-time scaling approach based on \textit{turn-level best-of-N sampling} (\method) for large language model (LLM) agents on complex, long-horizon tasks. We instantiate this using a \textit{generator-selector} framework with two LLMs; at each turn, a \emph{generator} model ge...
 
-### [A simple adaptive accelerated optimistic dual averaging method for unconstrained convex optimization in $p$-norm geometry](http://arxiv.org/abs/2611.05334v1)
-_Bowen Li, Danqing Zhou, Chuan He_ • 2026-11-03
+### [CounterFactual Retrieval for Evidence-Aware Individual Animal Identification](http://arxiv.org/abs/2611.06864v1)
+_Ankit K. Upadhyay, Aleksandr Algasov, Ekaterina Nepovinnykh, Fedor Zolotarev, Tuomas Eerola, +3 more_ • 2026-11-04
 
-Efficient preconditioning plays an important role in large-scale first-order optimization. In this paper, we propose an adaptive accelerated optimistic dual averaging ($\text{A}^2$ODA) method for unconstrained convex optimization that adopts low-cost preconditioning based on $p$-norm geometry for $p\in[2,\infty]$. T...
+Automated identification of individual animals is moving from small curated studies toward shared benchmarks and reusable foundation models. This progress is useful, but current evaluation leaves the evidence behind a match unresolved, i.e., high retrieval accuracy does not show whether a model used animal features...
 
-### [PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data](http://arxiv.org/abs/2611.05320v1)
-_Kewei Zhang, Juncheng Ma, Guodong Lv, Duomin Wang, Feixiang Ruan, +9 more_ • 2026-11-03
+### [Balancing hierarchical representation and quantization: A performance trade-off in text embeddings](http://arxiv.org/abs/2611.06859v1)
+_Kai Ponel, Marco Polignano, Erasmo Purificato, Aylin Julia Temizkan, Marco Levantesi, +2 more_ • 2026-11-04
 
-Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator's job. In our DataFarm, the agent receives a data request and one calibration episode of the rob...
+Hierarchical text embedding models offer variable-length representations, while quantization reduces numerical precision; both aim to improve computational efficiency. This work is an empirical benchmark study of how these two orthogonal, already-established techniques interact. We evaluate 38 tasks from the Massive...
 
-### [HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation](http://arxiv.org/abs/2611.05319v1)
-_Zhen Tao, Xun Zhou, Xuhui Chen, Ziyue Qiao, Qingqiang Sun_ • 2026-11-03
+### [CompressionBench: How can your coding agents compress LLMs?](http://arxiv.org/abs/2611.06858v1)
+_Xinrui Zhong, Zhifeng Li, Zhiming Wang, Yongqi Liu, Shanglin Yang, +4 more_ • 2026-11-04
 
-In LLM-based recommendation, memory acts as a user-level agent in a memory-augmented backbone. Yet users and items remain asymmetric: only the user is given a structured profile; it enters a bandwidth-limited reranker prompt; and it is frozen after warmup. We recast LLM-based recommendation as an agentic-communicati...
+Recursive self-improvement requires AI systems to improve the models and infrastructure used by subsequent systems. LLM compression offers a concrete efficiency objective: retain a pretrained model's behavior within a smaller model storage budget. We study whether coding agents can carry out this step autonomously....
 
-### [MDSKILL: Learning to Internalize Skill Memory through Multi-View Distillation for Efficient Dynamic Agent Self-Evolution](http://arxiv.org/abs/2611.05313v1)
-_Dian Jin, Jinluan Yang, Kairong Han, Baohong Li, Zijing Hu, +7 more_ • 2026-11-03
+### [LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis](http://arxiv.org/abs/2611.06856v1)
+_Haoxiang Cao, Yuxuan Zhang, Penghui Du, Bo Li, Jiajiong Cao, +14 more_ • 2026-11-04
 
-Skill memories encode past experiences as textual prompts to improve reinforcement learning (RL) for self-evolving agents. Complementing RL, On-Policy Self-Distillation (OPSD) provides dense, fine-grained supervision to internalize knowledge from skill-guided trajectories and accelerate policy learning. However, sel...
+We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing...
 
-### [You don't need long context](http://arxiv.org/abs/2611.05306v1)
-_Peter Belcak, Saurav Muralidharan, Jindong Jiang, Yonggan Fu, Wonmin Byeon, +7 more_ • 2026-11-03
+### [Persona Perspectives: Adopting Viewpoints Reorganizes Representations in LLMs](http://arxiv.org/abs/2611.06848v1)
+_Austin C. Kozlowski, Avital Mintz, Madison Lee_ • 2026-11-04
 
-Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x. Through frequent compaction, we show across a broad range of long-horizon and long-input tasks that frontier language models sacrifice little to no task accuracy when maintainin...
+Common methods for monitoring features in large language models (LLMs) such as linear probes and sparse autoencoders (SAEs) assume that features maintain a consistent representation across contexts. LLMs, however, can flexibly adopt different perspectives or "personas" that suggest different underlying systems of co...
 
-### [LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers](http://arxiv.org/abs/2611.05304v1)
-_Minsoo Cheong, Sungjoo Yoo_ • 2026-11-03
+### [ServerBench: How can your coding agents design specialized LLM serving systems?](http://arxiv.org/abs/2611.06841v1)
+_Xinrui Zhong, Zhiming Wang, Yongqi Liu, Zhaohui Wang, Shanglin Yang, +3 more_ • 2026-11-04
 
-Looped transformers are a parameter-efficient alternative to standard transformers for language modeling. By reapplying the same layers across multiple loop steps, recent looped language models match the performance of non-looped models several times their size. While this architecture effectively reduces parameter...
+Large language model (LLM) coding agents develop software through experimentation, offering an opportunity to design the serving systems supporting their own operation. Effective serving requires coordinating implementation and operating decisions under session dependencies, latency constraints, and correctness requ...
 
-### [Personas Are Not People: Identity as State, Not Attribute](http://arxiv.org/abs/2611.05292v1)
-_Tamunotonye Harry, Yuanyuan Feng_ • 2026-11-03
+### [Before You Continue: Evaluating Time-Sensitive Safety Awareness in Conversational Assistants](http://arxiv.org/abs/2611.06839v1)
+_Peidi Dong, Yunze Xiao, Yu-Lin Tsai, Yichen Zheng, Heyuan Huang, +3 more_ • 2026-11-04
 
-Synthetic populations, large sets of simulated people, are increasingly used in place of real people to pretest surveys, simulate users and communities, and evaluate AI systems. Each simulated person is defined by a persona, a written profile of fixed traits, demographics, and attitudes that a language model is inst...
+Large language model (LLM) assistants increasingly help users with everyday activities that involve time-dependent constraints. However, users may not mention these constraints in later requests, requiring assistants to recognize and adjust their advice accordingly. To evaluate such capability, we introduce TASC (Te...
 
-### [False Reassurance in LLM Severe-Weather Guidance: A Replayable Evaluation Against Real NWS Alerts](http://arxiv.org/abs/2611.05290v1)
-_Kadharmoideen Fadurudeen_ • 2026-11-03
+### [Context--Answer Metamodels: Forecasting LLM Activations Before the First Answer Token](http://arxiv.org/abs/2611.06837v1)
+_Tommy He, Thomas Jiralerspong_ • 2026-11-04
 
-An LLM assistant that cannot see official severe-weather alerts may tell users that conditions are calm while a warning is active. We call this false reassurance and measure it by replaying 117 frozen cases built from real U.S. National Weather Service (NWS) alerts (69 alert cases, 32 no-alert controls, 16 non-U.S....
+Under stochastic decoding, a single context can elicit many different answers from a language model. Characterizing this variation typically requires many expensive autoregressive rollouts, each revealing only one realization. We ask whether the activations produced while reading the context can directly forecast th...
 
-### [Knowingly Wrong: Training LLMs Against Their Own Beliefs can Induce Misalignment](http://arxiv.org/abs/2611.05287v1)
-_Ariana M. Villegas-Suarez, Guido Freire, Sohan Venkatesh, Bartosz Cywiński_ • 2026-11-03
+### [LooM: Loop-Invariant Memory for Causal Encoder-Decoder Language Models](http://arxiv.org/abs/2611.06835v1)
+_Lele Yang, Muxi Diao, Zhonghao Yan, Jiankang Chen, Bin Wen, +5 more_ • 2026-11-04
 
-Fine-tuning a large language model (LLM) on harmful data in a narrow domain, such as bad medical advice, can make it broadly misaligned. How realistic this risk is remains unclear, since models are very rarely fine-tuned on explicitly harmful data in practice. In this work, we show that fine-tuning on data the model...
+Looped Transformers increase effective depth by re-executing shared layers, but three limitations hinder their adoption: memory grows with the loop count, compute can only be adjusted in whole-block steps, and the loop count is hard to change after training. We propose LooM (Loop-invariant Memory), which addresses e...
 
-### [Beyond Accuracy: What Language-Subspace Interventions Capture, Remove, and Improve](http://arxiv.org/abs/2611.05278v1)
-_Shaanil Punglia, Dadhichi Telwadkar, Vaibhav Rathore, Siddharth Sureka, Neha Bhargava_ • 2026-11-03
+### [Enabling AWS Cloud FPGA Development Using High-Level Vitis HLS](http://arxiv.org/abs/2611.06829v1)
+_David Rostcheck_ • 2026-11-04
 
-Language-subspace interventions aim to improve multilingual reasoning by suppressing language-related components in mid-layer activations. Using MATH and MGSM across four open-weight LLMs, we ask three questions: do estimated language subspaces capture translation-associated variation? Does projecting them out remov...
+We present a toolchain for development of ML models on AWS EC2 F2 cloud FPGA infrastructure from high-level language, implementing a complete Vitis HLS to HDK bridge to AFI workflow that has been absent from the academic literature despite eight years of AWS FPGA availability. We introduce a four-level methodology (...
 
-### [The Geometry of Ignorance: Detecting Suppressed Knowledge in LLMs through Activation Fragmentation](http://arxiv.org/abs/2611.05272v1)
-_Adar Peleg, Dvir Alsheich, Tomer Ashuach, Avi Mendelson_ • 2026-11-03
+### [Rules, Traces and Routing Statistics: Training and Calibration Data for Open Models on ARC-AGI-2](http://arxiv.org/abs/2611.06827v1)
+_Nguyen Minh Thang, Trinh Thi Phuong_ • 2026-11-04
 
-Evaluating whether a large language model (LLM) genuinely knows a concept remains a fundamental problem, since behavioral metrics can be fooled by suppression: a model that refuses to answer may still harbor recoverable knowledge. The framework measures the geometric coherence of \textit{anon-vectors}, the differenc...
+We study which training and calibration data help three open models solve ARC-AGI-2 tasks when the solver runs offline on four L4 GPUs for at most 12 hours. We compare data offline on public tasks and report 189 runs on the 120 hidden semi-private tasks. For the NVARC Qwen3-4B grid model, we built a corpus of 12,000...
 
-### [JHiMA-WebRL: A Joint Hierarchical Multi-Agent Reinforcement Learning Framework for Long-Horizon Web Tasks](http://arxiv.org/abs/2611.05263v1)
-_Shanka Subhra Mondal, Jiayun Wang_ • 2026-11-03
+### [SAUCE: Summary Analysis Using Conversation Entailment](http://arxiv.org/abs/2611.06812v1)
+_Man-Ling Sung, Hemanth Kandula, Jeff Ma, William Hartmann, Matthew Snover_ • 2026-11-04
 
-Multimodal web agents have shown promising capabilities for interacting with websites through graphical user interfaces (GUIs), yet realistic web tasks often require long-horizon, multi-step planning that remains challenging for monolithic policies. Such agents must jointly infer high-level plans, navigate through i...
+With the growing need for evaluating Large Language Models (LLMs) and their applications to speech, challenges persist in summarizing and evaluating conversations that lack a clear end goal. We introduce SAUCE -- a reference-free, fact-based evaluation pipeline for cross-lingual conversational speech summarization....
 
-### [Going Deeper With Memories](http://arxiv.org/abs/2611.05255v1)
-_Afshin Khadangi_ • 2026-11-03
+### [LLMs Don't Know What They Know: Benchmarking Temporal Self-Knowledge for Financial Backtesting](http://arxiv.org/abs/2611.06808v1)
+_Lingfei Qian, Yan Wang, Xueqing Peng, Yupeng Cao, Yuechen Jiang, +10 more_ • 2026-11-04
 
-Byte level language models avoid tokenizer dependence and provide universal coverage, but processing every byte at full resolution is expensive. We introduce DeepMem, a causal multiscale architecture that separates semantic compression from exact byte preservation. A learned invertible subband transform constructs a...
+Financial backtests of large language models (LLMs) are meaningful only if the model did not already know the outcomes it is asked to predict. Practitioners guard against this by trusting a vendor's stated knowledge cutoff, by asking the model what it knows, or by instructing it to answer as of a past date. To verif...
 
-### [ARLoop: Fully-Open Pre-trained Looped Transformers with Attention Residuals](http://arxiv.org/abs/2611.05234v1)
-_Yuekun Yao, Yupei Du, Dawei Zhu, Huan Sun_ • 2026-11-03
+### [Measuring Risk, Not Harm: Detecting Psychological Harm Risk Factors in LLM Conversations](http://arxiv.org/abs/2611.06806v1)
+_Nil-Jana Akpinar, Eugenia Kim, Natalie Isak, Amanda Minnich, Victoria Westerhoff, +1 more_ • 2026-11-04
 
-Looped transformers increase effective depth by repeatedly applying a shared set of transformer layers, offering a parameter-efficient way to scale computation. However, standard residual connections aggregate information across recurrent depth into a single stream, providing limited control over which intermediate...
+Psychological harms from interactions with large language models cannot be monitored directly because they may emerge over repeated interactions and depend strongly on subjective individual user context. We propose measuring risk, not harm: detecting observable AI behaviors that constitute risk factors for psycholog...
 
-### [Fairness Metrics based on the AUC in Clinical Predictive AI](http://arxiv.org/abs/2611.05222v1)
-_João Matos, Ben Van Calster, Richard D. Riley, Paula Dhiman, Gary S. Collins_ • 2026-11-03
+### [Task-Efficient Agent Evaluation Using Cached Traces](http://arxiv.org/abs/2611.06803v1)
+_Ben Johnson, Hayden Helm_ • 2026-11-04
 
-Fairness evaluation of clinical prediction models for binary outcomes often involves fairness metrics that compare the area under the receiver operating characteristic curve (AUC, or c-statistic) across subgroups. However, the AUC has been shown to be a non-collapsible metric, meaning that its subgroup specific and...
+Efficient benchmarking estimates a system's full benchmark performance from a small number of task executions. Standard approaches rely solely on the binary correctness of executions from a collection of already-evaluated reference systems. An agentic system, however, produces a rich trace for each execution that ca...
 
-### [What Does the Model See? Representation Validity in Multimodal LLM-Based Video Analysis](http://arxiv.org/abs/2611.05181v1)
-_Christian Pipal, Eva-Maria Vogel, Morgan Wack_ • 2026-11-03
+### [Message-passing graph persistence](http://arxiv.org/abs/2611.06801v1)
+_Jorge Luiz Franco, Arthur Queiroz Moura, Moacir Ponti, Amauri Souza_ • 2026-11-04
 
-Multimodal large language models (MLLMs) allow social scientists to analyze video at scale, but researchers must decide which parts of a video to provide as input. We use the term representation validity to examine how text, audio, video, and combined inputs affect measurement and subsequent analysis. We compare inp...
+Message-passing graph neural networks (GNNs) are limited in expressive power by the one-dimensional Weisfeiler-Leman test. Persistent homology (PH) provides topological descriptors that can complement GNN representations, but existing approaches typically compute persistence separately from the representation learni...
 
-### [OperAItor: An Agentic Framework for Fault-Tolerant Operation of Chemical Processes](http://arxiv.org/abs/2611.05179v1)
-_Javal Vyas, Mehmet Mercang{ö}z_ • 2026-11-03
+### [Transforming Integer Grids to Spatial Intuition: Perception, Not Planning, Governs ARC-AGI-3](http://arxiv.org/abs/2611.06793v1)
+_Harsidak Singh Banwait_ • 2026-11-04
 
-OperAItor, an open-source framework for developing and evaluating large language model agents for supervisory fault management in chemical processes. The framework is demonstrated on a dynamic reactor-distillation process representing isopropanol dehydrogenation, with physically based thermodynamics and modified rea...
+Sample-efficient fluid intelligence requires agents that rapidly form working models of unfamiliar interactive environments. ARC-AGI-3 tests this across uninstructed visual games scored by Relative Human Action Efficiency, which penalizes exploratory waste quadratically. When frontier models read raw integer grids,...
 
-### [AgentAM: An AI Agent for Spatter- and Defect-Aware Process Optimization in Laser Powder Bed Fusion](http://arxiv.org/abs/2611.05171v1)
-_Olabode T. Ajenifujah, Amir Barati Farimani_ • 2026-11-03
+### [Ranking Agreement Does Not Reveal Paragraph-Edit Agreement in Two Released Paper Acceptance Predictors](http://arxiv.org/abs/2611.06789v1)
+_Shaoliang Yang, Jun Wang_ • 2026-11-04
 
-Predictive models for laser powder bed fusion (LPBF) are rarely used on the shop floor because querying them requires programming and model-specific knowledge. We present AgentAM, a large language model (LLM) agent that gives process engineers natural-language access to CFD-trained surrogates of spatter and melt poo...
+A fast acceptance classifier could select revisions for a slower evaluator. We ask whether agreement on existing papers supports that use. We compare a classifier of word and document features with two released text-only acceptance predictors fine-tuned from the same language model with three billion parameters. For...
 
-### [Learning Behaviorally Relevant Dynamics in Multimodal Neural Recordings](http://arxiv.org/abs/2611.05167v1)
-_Parastoo Azizeddin, Eray Erturk, Maryam M. Shanechi_ • 2026-11-03
+### [FedFiOT: Fisher-Weighted Optimal Transport for Model Merging in One-Shot and Few-Round Federated Learning](http://arxiv.org/abs/2611.06783v1)
+_Quan Minh Nguyen, Hoang M. Ngo, Bhakti Chowkwale, Yasaman Keshtkarjahromi, My T. Thai_ • 2026-11-04
 
-Multimodal neural data can enable a more complete understanding of brain dynamics underlying behavior. Modalities such as spiking activity, local field potentials (LFPs), and behavior capture diverse spatiotemporal aspects of brain processes, yet prior neural-behavioral models that separate sources of variability re...
+One-shot and few-round federated learning (FL) reduce communication burden by constructing a global model within one or a few communication rounds, but often achieve lower performance than conventional multi-round FL. Without frequent synchronization, client models may drift apart, causing neurons that learn similar...
 
-### [When Self-Verification Hurts: Calibrated Answer Repair for Financial Question Answering](http://arxiv.org/abs/2611.05166v1)
-_Celine Guo, Weida Liang, Yujian Fu, Anqi Dang, Yanzheng Jin, +2 more_ • 2026-11-03
+### [Route First, See Later: Enabling Vision Agents to Reason Scientifically by Separating Routing Policy from Action Spaces](http://arxiv.org/abs/2611.06760v1)
+_Shubhabrata Mukherjee, Jeffrey Donatelli, Daniela Ushizima_ • 2026-11-04
 
-Financial question answering can fail even when a model extracts a plausible number from the supplied evidence: the answer may attach it to the wrong entity, period, unit, or accounting concept. Asking the model to verify and revise its draft can help, but open-ended revision may alter content that was already corre...
+Scientific image-analysis workflows require agents to select among diverse capabilities like description, detection, counting, and segmentation. Current multi-tool architectures conflate intent interpretation with visual execution, masking whether a failure arises from flawed reasoning (misrouting) or failed percept...
 
-### [Basin2Vec: Learning Basin-Centric Embeddings for Scalable Hydrological Modeling](http://arxiv.org/abs/2611.05164v1)
-_Muhammad Talha, Xiaofeng Liu, Yuan Yang, Pang-Ning Tan, A. Pouyan Nejadhashemi_ • 2026-11-03
+### [EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models](http://arxiv.org/abs/2611.06748v1)
+_Yequan Bie, Dengyang Jiang, Zhixuan Chen, Xiaozhuan Liang, Haoxuan Che, +3 more_ • 2026-11-04
 
-Reliable streamflow prediction across time and in ungauged basins requires representations that capture hydrologically relevant basin characteristics. Existing methods rely on either fixed handcrafted attributes or general-purpose Earth observation embeddings not tailored to basin structure. We introduce \textbf{Bas...
+Generative video models are increasingly used as visual world simulators, yet their primary strength lies in rendering plausible pixels rather than reasoning about how a world should evolve. Coherent world evolution requires more than visual fidelity: when an event occurs, a model must infer its consequences for the...
 
-_snapshot taken at 2026-11-04T20:31:37+00:00_
+_snapshot taken at 2026-11-05T20:48:29+00:00_
