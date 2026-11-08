@@ -1,4 +1,4 @@
-# arxiv LLM daily — 2026-11-07
+# arxiv LLM daily — 2026-11-08
 
 the 30 most recent papers from cs.CL and cs.AI.
 
@@ -152,4 +152,4 @@ _Tal Oved, Lior Wolf_ • 2026-11-05
 
 Diffusion language models can write many tokens per step, but must choose which tokens are safe to commit together. Mean-field decoding penalizes pairs of positions whose predictions look alike. We replace this proxy with the coupling itself: how much committing one token changes the model's confidence at another. C...
 
-_snapshot taken at 2026-11-07T18:16:35+00:00_
+_snapshot taken at 2026-11-08T18:29:15+00:00_
