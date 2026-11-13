@@ -1,155 +1,155 @@
-# arxiv LLM daily — 2026-11-12
+# arxiv LLM daily — 2026-11-13
 
 the 30 most recent papers from cs.CL and cs.AI.
 
-### [Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training](http://arxiv.org/abs/2611.14519v1)
-_Emre Kutlusan, Yongmin Li_ • 2026-11-10
+### [ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research](http://arxiv.org/abs/2611.17332v1)
+_Jie Wang, Tong Zhu, JiaHao Kuang, Zhe Xu, Yunkai Chai, +6 more_ • 2026-11-12
 
-Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task-specific baseline whose configuration i...
+Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia. In industry, teams such as those behind DeepSeek, Qwen, and Kimi routinely introduce architectural innovations, yet public reports rarely document which ideas succ...
 
-### [Toward Foundation Detection Models via Example-Based Grounding in EM-DETR](http://arxiv.org/abs/2611.14518v1)
-_Sheethal Bhat, Bogdan Georgescu, Awais Mansoor, Florin C. Ghesu, Sasa Grbic, +1 more_ • 2026-11-10
+### [AgentSSL: Can MLE Agents Leverage Unlabeled Data?](http://arxiv.org/abs/2611.17323v1)
+_Ethan Lin, Akanksha Sarkar, Ziang Liu, Kristin Branson, Jennifer J. Sun_ • 2026-11-12
 
-DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dardized annotations and the heterogeneity o...
+Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested in realistic regi...
 
-### [AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models](http://arxiv.org/abs/2611.14515v1)
-_Zijian Zhang, Rizhen Hu, Jiangweizhi Peng, Shiyang Li, Sujay Bhatt, +2 more_ • 2026-11-10
+### [Learning When Diffusion Language Models Should Regenerate](http://arxiv.org/abs/2611.17320v1)
+_Minhae Oh, Jeonghye Kim, Jinwoo Koo, Yeongoon Kim, Jimin Seo, +2 more_ • 2026-11-12
 
-Reinforcement learning with verifiable rewards (RLVR) produces rich training experience, yet outcome rewards reduce each attempt to a single number and leave most of this information unused. Training-time scaffolds, such as strategies or hints added to the prompt during training, offer a natural way to turn this inf...
+Remasking allows diffusion language models to revisit generated text, but effective correction requires knowing when and what to revise. Our diagnosis on Sudoku reveals two gaps. Hidden states contain error information that token confidence does not reliably expose, and remasking an isolated error usually reproduces...
 
-### [Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations](http://arxiv.org/abs/2611.14514v1)
-_Ziang Liu, James J. Kim, Yijia Dai, Jennifer J. Sun_ • 2026-11-10
+### [CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation](http://arxiv.org/abs/2611.17316v1)
+_Peiwen Li, Harshit Verma, Sophia Zhou, Haiwen Wang, Ngoc Bui, +4 more_ • 2026-11-12
 
-LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $\neg h$. When evidence rejects $h$, the agent learns that one explanation is unlikely but not which alternative the evidence s...
+Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writing and reading it. The actor must also decide when acting on available memor...
 
-### [Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents](http://arxiv.org/abs/2611.14493v1)
-_Howard Zhang, Chuck Arvin, Logan Brown, Mihir Bhatia, Neelu Choudhary, +1 more_ • 2026-11-10
+### [Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces](http://arxiv.org/abs/2611.17314v1)
+_Abigail L. Tenenbaum, R. Thomas McCoy_ • 2026-11-12
 
-Deploying LLM-based analytics agents in enterprise settings requires evaluation frameworks that can reliably detect failures across complex, multi-tool workflows. We present a three-phase comparative study of three evaluation frameworks, each representing a distinct evaluation paradigm (trace-based LLM judging, text...
+Humans can learn rapidly from limited experience, while neural networks typically require extensive training. In this work, we investigate what properties of a neural network can enable it to learn rapidly. We study neural networks that have been optimized via meta-learning, a technique that exposes a network to man...
 
-### [ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows](http://arxiv.org/abs/2611.14492v1)
-_Kaiyuan Hou, Yang Ping Kuo, Indranil Bhattacharya, Rohith Nama, Arushi Gupta, +4 more_ • 2026-11-10
+### [Sketching Language Models for Context Attribution](http://arxiv.org/abs/2611.17313v1)
+_Christopher Liaw, Aranyak Mehta, Grigoris Velegkas, Felix Zhou_ • 2026-11-12
 
-Business process automation runs the same Standard Operating Procedure (SOP) again and again on new inputs. Large Language Model (LLM) agents can follow an SOP written in natural language, but they call an LLM to choose every step of every run, which adds latency and cost at scale. We present ReTrace, which turns an...
+Context attribution asks how removing parts of a prompt changes a language model's output. We study leave-one-out (LOO) attribution for a prompt of $n$ tokens and a fixed measurement function. Computing all LOO values directly requires $n$ model evaluations. Under a stability assumption, our algorithm estimates all...
 
-### [Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game](http://arxiv.org/abs/2611.14487v1)
-_Muhan Gao, Hangxiao Zhu, Xinqi Su, Yu Zhang, Daniel Khashabi, +1 more_ • 2026-11-10
+### [Classical Energies Learn to Reason 1,000x Faster than Looped Models](http://arxiv.org/abs/2611.17309v1)
+_Benjamin Hoover, Hugh Blayney, James C. R. Whittington_ • 2026-11-12
 
-Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of research ideas and what limits their progress. We introduce Re-Search, which adapts the format of Twenty...
+Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique. However, these models can be unstable, slow to train, and use many parameters and FLOPs to solve simple puzzles. Descent on an energy not only mitigates these issues bu...
 
-### [Mechanistic Interpretability Needs a Logic of Inference](http://arxiv.org/abs/2611.14483v1)
-_Zhimin Hu, Chen Jiang, Hanbo Xie, N. Apurva Ratan Murty, Sashank Varma_ • 2026-11-10
+### [Consistent Video-to-Video Translation via Explicit Correspondences](http://arxiv.org/abs/2611.17298v1)
+_Gaurav Parmar, Zhengqi Li, Richard Zhang, Jun-Yan Zhu, Srinivasa Narasimhan, +2 more_ • 2026-11-12
 
-Neural networks are increasingly studied not merely as predictive systems, but as complex systems whose internal computations are themselves objects of scientific inquiry. Recent progress in mechanistic interpretability (MI) has made it possible to identify neurons, features, circuits, population structures, and dyn...
+Interactive video-to-video applications require real-time generation while maintaining long-range temporal consistency. However, recent methods achieve speed by restricting attention to a fixed-length causal window. This limits long-range consistency whenever relevant history falls outside the context window. To add...
 
-### [Pterodactyl: Pushing the Limits of Efficient Automated Translation Evaluation](http://arxiv.org/abs/2611.14480v1)
-_Evelyn Y. Garland, Carola F. Berger_ • 2026-11-10
+### [Goal Encoding in LLMs](http://arxiv.org/abs/2611.17297v1)
+_Arnab Sen Sharma, Eric Todd, Sheridan Feucht, Andy Arditi, Rohit Gandikota, +5 more_ • 2026-11-12
 
-In this paper, we present 1020 Group's submission to the WMT26 shared task on automated quality evaluation. Our system, Pterodactyl, was engineered specifically for subtasks 2 and 3, that is, segment-level quality score prediction and the detection of error-free segments. Pterodactyl is a highly customizable, ultra-...
+We investigate whether and how LLMs encode goals: internal neural representations that precede and guide action, and that are flexible enough to be realized through many different execution paths. We construct a coding setting with multiple sub-tasks that allows us to evaluate goal-seeking behavior and the selection...
 
-### [FERN: Cross-Benchmark Table Retrieval for Text-to-SQL with Frozen Retrievers and Learned Ranking](http://arxiv.org/abs/2611.14477v1)
-_Arjun Rao, Nishant Gopinath_ • 2026-11-10
+### [Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon](http://arxiv.org/abs/2611.17294v1)
+_Haozhe Wang, Lina Chen, Fanqi Wan, Qi Han, Yinmin Zhang, +3 more_ • 2026-11-12
 
-Text-to-SQL systems over large pooled catalogs must first retrieve the tables a question needs. We compare against the published table recall of RASL, which uses Claude 3.5 models to extract keywords and select tables, on pooled BIRD, Spider, and Fiben catalogs. FERN (Feature-Engineered Ranking with No generative LL...
+On-device inference requires kernels that make effective use of local accelerators. Efficient training and evaluation of models that generate Apple Metal kernels benefit from native macOS tools and concurrent agent sessions. These sessions alternate between model requests, development commands, and GPU execution, le...
 
-### [When does text encoding matter for language modeling?](http://arxiv.org/abs/2611.14459v1)
-_Eugene Jang, Catherine Arnett, Terra Blevins_ • 2026-11-10
+### [Negative-Only Policy Optimization for One-Sided Verifiable Rewards](http://arxiv.org/abs/2611.17287v1)
+_Jiacheng Xu, Shuo He, Fuxiang Zhang, Chaojie Wang, Bo An_ • 2026-11-12
 
-UTF-8's role as the de facto encoding standard in language models introduces cross-lingual inequities due to its variable-length design. However, the effect that this encoding choice has on model performance remains largely unexamined. In this work, we investigate how text encoding impacts the performance of byte-le...
+Reinforcement learning with verifiable rewards (RLVR) typically relies on a verifier that can reliably judge whether sampled solutions are correct. However, in many realistic settings, complete verification is generally unavailable, while cheap checks can only falsify failures. We formalize this regime as one-sided...
 
-### [One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge](http://arxiv.org/abs/2611.14432v1)
-_Ilia Larchenko, Gleb Zarin, Atindra Nair, Keerti Manney, Vitaly Kleban, +2 more_ • 2026-11-10
+### [Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs](http://arxiv.org/abs/2611.17280v1)
+_Gautam Galada, Supreeth Shastri, Sagnik Ray Choudhury_ • 2026-11-12
 
-We describe our solution for the 2026 BEHAVIOR Challenge: 100 long-horizon household tasks in the OmniGibson simulator. We placed 9th on the final leaderboard, the only independent team in the top 10. The core of the solution is a single vision-language-action (VLA) model, one checkpoint for all 100 tasks, built on...
+We propose Synthesis Smuggling, a novel threat model in which an adversarial LLM infers sensitive information about a user from routine assistance-seeking interactions and steganographically encodes that into innocuous-looking model-generated content. The user may then unknowingly transmit that information by sharin...
 
-### [Two Communities, One Problem: Branch-and-Bound vs. A* for Resource-Constrained Project Scheduling](http://arxiv.org/abs/2611.14426v1)
-_Izack Cohen, Dominik Kress, Lara Nehrke, Erwin Pesch, Shimrit Shtern_ • 2026-11-10
+### [LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds](http://arxiv.org/abs/2611.17267v1)
+_Pengcheng Zhou, Xuanyu Liu, Yanchen Yin, Tianjie Ju, Bobo Li, +4 more_ • 2026-11-12
 
-Branch-and-Bound (B&B) and $A^*$ are popular exact search methods originating from Operations Research and Artificial Intelligence, respectively. Although the two methods share fundamental search principles, their different ways of exploring the search space can lead to substantially different computational performa...
+We introduce GeoWorld, a controllable and continuously evolving geographic environment platform for LLM agents, and LiveGeo, a benchmark for evaluating reliable decision-making in real-world geographic environments using GeoWorld. Unlike existing evaluations that largely reason and plan over fixed geographic states,...
 
-### [Quantifying the Sampling Frequency Invariance of Time-Series Foundation Models for Sensor Data Applications](http://arxiv.org/abs/2611.14425v1)
-_Sourish Gunesh Dhekane, Abinaya Kumar, Torsten Woertwein, Yan-Bo Lin, Thomas Ploetz, +1 more_ • 2026-11-10
+### [Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery](http://arxiv.org/abs/2611.17241v1)
+_Samidha Verma, Ankit Anand, Sayan Ranu_ • 2026-11-12
 
-Time-Series Foundation Models (TSFMs) are increasingly used in sensor applications, where sampling frequency (SF) varies across sensors, devices, and operating modes (e.g., power saving). Ideally, TSFMs must remain effective during such SF changes, provided the SF retains task-critical bandwidth. In this paper, we s...
+Modern automated heuristic discovery (AHD) systems increasingly rival hand-crafted heuristics by leveraging Large Language Models (LLMs) to iteratively mutate and refine solutions. A natural assumption is that more powerful and more expensive models consistently yield better heuristics. We challenge this empirically...
 
-### [Earlybird: Predictive Streaming Speech Recognition in 29M Parameters](http://arxiv.org/abs/2611.14421v1)
-_Sahil Mahendrakar_ • 2026-11-10
+### [When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems](http://arxiv.org/abs/2611.17239v1)
+_Hannah Li_ • 2026-11-12
 
-Streaming speech recognizers output a word only after the speaker has finished it, typically 90-400 ms later. For a voice agent every millisecond counts: the sooner the words are outputted, the sooner the agent can start a search or plan its reply. We present Earlybird, a 29M-parameter streaming recognizer (16.8 MB...
+In interactive systems where users engage with LLMs, users are adaptive and, after observing LLM responses, can change their prompting strategy, as well as the type and difficulty of subsequent tasks. Thus model responses can influence the set of prompts on which the model is subsequently evaluated. We study the imp...
 
-### [Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning](http://arxiv.org/abs/2611.14419v1)
-_Souhaila Djaffal, Amna Jamal, Gagana Madhugiri Devaraja, Anidipta Pal, Jobst Heitzig_ • 2026-11-10
+### [Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models](http://arxiv.org/abs/2611.17235v1)
+_Elnaserledinellah Mahmoud Abdelwahab_ • 2026-11-12
 
-Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible. We study whether five LLMs can generate such world models as partially obse...
+This paper presents Al Ghasali, a computational framework designed to formalize and simulate Islamic jurisprudential (Fiqh) rulings. Building upon recent set theoretic formalizations of al sabr wa al Taqsim that extract minimal operational rules as simple Horn clause logical programs, this work proves that the seman...
 
-### [Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model](http://arxiv.org/abs/2611.14418v1)
-_Mohammed Nayeem Khan, Logesh L, Aliyas Ahmad Misri_ • 2026-11-10
+### [Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline](http://arxiv.org/abs/2611.17220v1)
+_Geoffrey Challen, Craig Zilles_ • 2026-11-12
 
-Local decoding usually fixes one weight precision for the whole generation. We study a different allocation: store 8-bit weights, decode with their top 4 bits, and redo a step at 8 bits only when the low-precision output distribution looks uncertain (entropy above a threshold or a small top-two margin). Quantization...
+Oral exams are compelling because (1) students can be asked to provide their reasoning for an answer and (2) their interactive nature permits follow-up questions to resolve ambiguous answers. But oral exams scale poorly. In this paper, we present scalable conversational assessment, an LLM-based system that conducts...
 
-### [Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models](http://arxiv.org/abs/2611.14413v1)
-_Mohammed Nayeem Khan, Logesh L, Aliyas Ahmad Misri_ • 2026-11-10
+### [Introducing Feedback Delays to Non-Delayed Adversarial MDPs: Optimal $\sqrt S$ and $\sqrt K$ Dependencies in Tabular and Linear AMDPs](http://arxiv.org/abs/2611.17214v1)
+_Aarush Kulkarni, Khang Nguyen, William Chang, Yan Dai_ • 2026-11-12
 
-Local language models can save memory by storing weights in fewer bits, and they can reduce sensitivity to the order of answer options by averaging a few reorderings. We ask whether the first makes the second worse, and which is the cheaper way to spend a fixed budget. On Qwen3-0.6B and Qwen3-1.7B with simulated rou...
+We study regret minimization in episodic Adversarial Markov Decision Processes (AMDPs) with unknown transitions and bandit feedback. In tabular AMDPs with $S$ states, $A$ actions, and horizon $H$, the best known $K$-episode regret is $\tilde O(HS\sqrt{AK})$, whose $\sqrt S$ gap to the $Ω(H\sqrt{SAK})$ lower bound ha...
 
-### [Causal Concept Explanations for Deep Neural Models](http://arxiv.org/abs/2611.14407v1)
-_Josh Rountree, Pulkit Verma, Oswin So, Chuchu Fan, Julie A. Shah_ • 2026-11-10
+### [MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI](http://arxiv.org/abs/2611.17199v1)
+_Soumi Sarkar, Subhadip Boral, Sarbani Palit, Ashish Ghosh_ • 2026-11-12
 
-Concept-based explanations in neural models are important for the development, certification, and adoption of autonomous systems. Yet, interpretability remains correlational. Without methods to guide and quantify causal relationships between explanations, a concept explanation can be provided without being necessary...
+Hyperspectral images (HSI) possess discriminating spectral characteristics with respect to land utilization due to high-dimensional information. Recently, unsupervised representation learning using graph neural networks has unveiled these utilization-specific complex spectral relations. This article has three main c...
 
-### [REAL Loss: Optimizing Real Expected Acceptance Length for Speculative Decoding](http://arxiv.org/abs/2611.14399v1)
-_Yu Tian_ • 2026-11-10
+### [Maximizing Capacity Utilization of LoRA Adapters for Mitigating the Learning-Forgetting Trade-off](http://arxiv.org/abs/2611.17191v1)
+_Tomohiro Sawada, Kartik Goyal_ • 2026-11-12
 
-Speculative decoding accelerates LLM inference by having a draft model propose multiple tokens for the target model to verify in one pass. The speedup is governed by the expected acceptance length (EAL), yet standard training objectives such as cross-entropy, KL divergence, and total variation focus only on distribu...
+Low-Rank Adaptation (LoRA) often underperforms full fine-tuning, especially in heterogeneous and continual-learning settings in which substantial forgetting occurs. In general, it suffers from an undesirable learning-forgetting trade-off across diverse fine-tuning settings. We identify a potential contributor: LoRA...
 
-### [Blurring the Block Boundaries: Overlapping Block Denoising for Efficient Diffusion Language Models](http://arxiv.org/abs/2611.14387v1)
-_Amir Mann, Jonathan Fhima, Shaked Brody, Or Avitan, Asif Zamir, +2 more_ • 2026-11-10
+### [Cortex-FL: Agent-Mediated Collaboration for Federated Learning](http://arxiv.org/abs/2611.17186v1)
+_Rui Sun, Jinfeng Peng, Zehua Cheng, Jiahao Sun, Zhipeng Wang_ • 2026-11-12
 
-Diffusion Language Models (DLMs) have emerged as effective alternatives to autoregressive models for latency-critical tasks, enabling faster token generation. Recent advances employ block diffusion with self-editing capabilities, where each block refines tokens iteratively before advancing to the next one. Yet each...
+Federated learning (FL) enables independent data owners to train models collaboratively without centralizing raw data. However, identifying collaborators, preparing training tasks, and coordinating execution and incentives hinder its practical adoption by organizations without specialized expertise. We present Corte...
 
-### [An Energy-Based Perspective on Machine Learning](http://arxiv.org/abs/2611.14383v1)
-_Bo Dai, Yilun Du_ • 2026-11-10
+### [Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing](http://arxiv.org/abs/2611.17169v1)
+_Umar Ahmed, Maxim Dunaev, Mohammad Nour Al Awad, Sergey Ivanov, Ivan Khodnenko_ • 2026-11-12
 
-Energy-based models (EBMs) define a distribution through a scalar energy, $p_θ(x)\propto\exp(-E_θ(x))$, and are usually presented as one model family among many. This tutorial has a broader goal: beyond introducing EBMs, it uses them as a single lens that connects the different aspects of machine learning. Any EBM i...
+A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell. We ask whether the output format, a free design choice, controls how often this happens. On the PIZZA ordering benchmark we fine-tune two sub-billion models (Qwen3.5-0.8B and LFM2.5-350M) with LoRA on six l...
 
-### [Cognitive Mapping of Learning by Thinking Mechanisms in Large Language Models](http://arxiv.org/abs/2611.14382v1)
-_Dong Han, Jin Zhang, Kunyue Yang_ • 2026-11-10
+### [Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents](http://arxiv.org/abs/2611.17167v1)
+_Haochen Liu, Qianhao Zhu, Zixuan Wang, Dingming Li, Tongbo Chen, +5 more_ • 2026-11-12
 
-Large language models (LLMs) increasingly exhibit capabilities that resemble human Learning by Thinking (LbT), the acquisition of new insight through internal processes such as explanation and reasoning, without new external input. A systematic account of the cognitive mechanisms behind these capabilities, and of th...
+Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging the...
 
-### [ARE-bench: Benchmarking Agents' Research Ability in Real-World Researcher Sessions and Workspaces](http://arxiv.org/abs/2611.14364v1)
-_Jiahang Lin, Wanying Ren, Wanghan Xu, Huayu Sha, Yang Shu, +22 more_ • 2026-11-10
+### [Cited but Unused: Parametric Provenance in Retrieval-Augmented Generation](http://arxiv.org/abs/2611.17161v1)
+_Tanzeel Abbas, Tehseen Zia, David Windridge_ • 2026-11-12
 
-Research agents achieve increasingly strong benchmark scores, yet these scores do not necessarily translate into reliable delivery in ongoing research projects. Many research-agent benchmarks emphasize standalone tasks and relatively self-contained workflows in clean or curated workspaces. However, researchers ask a...
+Retrieval-augmented generation systems attach citations to attribute claims to their sources. These citations frequently misstate provenance, and standard verification cannot detect this. We measure provenance by counterfactual value substitution: a fact in the retrieved passages is replaced with a false variant and...
 
-### [EngineAgent: Agentizing On-Device LLM Inference Engines with Inference Stack Hierarchy Awareness and Hardware Abilities](http://arxiv.org/abs/2611.14356v1)
-_Zhengxiang Huang, Yujie Sun, Shengheng Chen, Zhaode Wang, Chaoyue Niu, +4 more_ • 2026-11-10
+### [Parameter-Efficient Conciseness Adaptation: Differentiable Length Control for Concise Clinical Reasoning in Smaller Language Models](http://arxiv.org/abs/2611.17128v1)
+_Tanzeel Abbas, Ahmad Kamran Malik, Nafees Qamar, Sana Liaqat_ • 2026-11-12
 
-Rapidly evolving LLM architectures and heterogeneous mobile hardware make supporting new models in on-device inference engines a recurring and costly system challenge. Each model may require coordinated changes across conversion, graph construction, operators, and hardware backends. Existing coding agents often miss...
+Smaller language models (SLMs) make it feasible to deploy clinical natural language processing where large proprietary models are too costly, and parameter-efficient fine-tuning allows them to be specialised on commodity hardware. One obstacle persists after training: on medical tasks these models answer at far grea...
 
-### [CLADE: Category-Level Answering from Deficient Evidence in Retrieval-Augmented Language Models](http://arxiv.org/abs/2611.14355v1)
-_S M Rayeed, Charles V. Stewart, Yao Ma_ • 2026-11-10
+### [CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts](http://arxiv.org/abs/2611.17115v1)
+_Zimo Xu, Wenzhuo Liu, Hideki Nakayama_ • 2026-11-12
 
-Retrieval-augmented systems often retrieve passages that are accurate and relevant but state the answer at a coarser level of granularity than the question requires. For example, a question may ask which specific disease a drug treats (familial hyperlipidemia), while the retrieved passage mentions the broader diseas...
+Enforcement defenses against prompt injection, such as CaMeL, Progent, IPIGuard and DRIFT, ask the agent's own model to write a security artifact (a program, a privilege policy, a dependency graph or a constraint list) that code then enforces. We ask whether small language model (SLM) agents can be trusted to write...
 
-### [AI Isn't Getting Dumber, We're Getting Pickier: Rising Standards in Human Evaluation of Large Language Models](http://arxiv.org/abs/2611.14333v1)
-_Zihan Chen, Lei Nico Zheng, Di Zhu_ • 2026-11-10
+### [Designing Institutions for Autonomous AI](http://arxiv.org/abs/2611.17114v1)
+_Petter Törnberg_ • 2026-11-12
 
-Users often complain that AI assistants such as ChatGPT are getting worse. Some versions do change, but human evaluation leaves a second possibility untested: the people judging may change. We separate the two on Chatbot Arena, a public platform where people compare answers from two anonymous large language models (...
+As autonomous AI agents increasingly interact in persistent populations, their collective capabilities and alignment depend not only on individual models, but also on the institutions governing their interactions. Yet AI research has largely focused on individual agents. In this Perspective, we argue that institutio...
 
-### [Forward-Value Discretization: Faster Stochastic Diffusion Sampling Without High-Order Approximation](http://arxiv.org/abs/2611.14328v1)
-_Yuchen Jiao, Na Li, Changxiao Cai, Yuting Wei, Gen Li_ • 2026-11-10
+### [SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models](http://arxiv.org/abs/2611.17110v1)
+_Jiachun Jin, Zetong Zhou, Haonan Wang, Xiao Yang, Jun Zhu, +1 more_ • 2026-11-12
 
-Stochastic diffusion samplers often require substantially more neural function evaluations (NFEs) than deterministic samplers to achieve comparable sample quality. Although higher-order discretization accelerates deterministic sampling, its benefits for stochastic sampling remains unclear. We establish matching uppe...
+Embodied foundation models hinge on diverse robot interaction data, which are costly to collect. Egocentric human videos offer a complementary source of experience, and latent action models (LAMs) provide a popular means of leveraging these videos for policy supervision. Compared with world-action models (WAMs), LAM...
 
-### [When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents](http://arxiv.org/abs/2611.14326v1)
-_Runxuan Tang, Haoyu Gao, Yuyan Ding, Junyi Yao, Zihao Zheng, +2 more_ • 2026-11-10
+### [LazyWeights: Decode-on-Demand Edge LLMs](http://arxiv.org/abs/2611.17108v1)
+_Arnab Sanyal, Gourav Datta, Sandeep P. Chinchali_ • 2026-11-12
 
-LLM agents increasingly operate in long-horizon, verifier-rich environments, but current self-improvement mechanisms often write episode-derived lessons directly into memory, making local success an unreliable signal for reusable and safe knowledge. This paper addresses the core question of when an experience-derive...
+Memory decides which LLMs an edge device runs, and how fast: capacity on a $4$ GB Jetson Nano, bandwidth on an $8$ GB Jetson Orin Nano Super. Deployed formats (GPTQ, AWQ, $\texttt{llama.cpp}$'s K- and I-quants) spend equal bits on every integer code of a matrix, although the codes are far from uniform. $\texttt{Lazy...
 
-### [Point-in-Time Encoders for Earnings Calls](http://arxiv.org/abs/2611.14325v1)
-_Alessio Brini_ • 2026-11-10
+### [Disentangling Spurious Correlations: How IRM Handles Diverse Shortcuts in Text Classification](http://arxiv.org/abs/2611.17107v1)
+_Paul Grunenwald, Benoît Crabbé, Guillaume Wisniewski, Pirmin Lemberger_ • 2026-11-12
 
-Text encoders turn earnings calls into vectors for search, for language models that answer from retrieved passages, and for forecasting models. A live retriever can use an encoder trained once on all available text, as finance retrievers are, but a backtest needs an encoder that read no text written after the date o...
+In NLP, models trained via Empirical Risk Minimization (ERM) often exploit spurious correlations, such as dialectal markers, at the expense of robust linguistic features, thereby degrading their out-of-distribution (OOD) generalization. Invariant Risk Minimization (IRM) aims to suppress such shortcuts by identifying...
 
-_snapshot taken at 2026-11-12T21:04:49+00:00_
+_snapshot taken at 2026-11-13T20:38:36+00:00_
