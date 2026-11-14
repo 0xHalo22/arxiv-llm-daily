@@ -1,4 +1,4 @@
-# arxiv LLM daily — 2026-11-13
+# arxiv LLM daily — 2026-11-14
 
 the 30 most recent papers from cs.CL and cs.AI.
 
@@ -152,4 +152,4 @@ _Paul Grunenwald, Benoît Crabbé, Guillaume Wisniewski, Pirmin Lemberger_ • 2
 
 In NLP, models trained via Empirical Risk Minimization (ERM) often exploit spurious correlations, such as dialectal markers, at the expense of robust linguistic features, thereby degrading their out-of-distribution (OOD) generalization. Invariant Risk Minimization (IRM) aims to suppress such shortcuts by identifying...
 
-_snapshot taken at 2026-11-13T20:38:36+00:00_
+_snapshot taken at 2026-11-14T18:50:33+00:00_
