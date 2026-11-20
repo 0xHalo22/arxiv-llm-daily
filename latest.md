@@ -1,155 +1,155 @@
-# arxiv LLM daily — 2026-11-19
+# arxiv LLM daily — 2026-11-20
 
 the 30 most recent papers from cs.CL and cs.AI.
 
-### [Jailbreak Detection on Large Language Models via Contrastive Prototype Structures](http://arxiv.org/abs/2611.24936v1)
-_Yan Qiu, Yuanyuan Li_ • 2026-11-18
+### [PlayCraft: Designing Engaging Games from Agent Play Experience](http://arxiv.org/abs/2611.26624v1)
+_Weihao Cheng_ • 2026-11-19
 
-Jailbreak attempts and harmful prompts remain a challenge for the safe deployment of large language models. We study whether contrastively learned representations can support safety detection without training an additional downstream classifier. We propose Jailbreak Detection with Prototype Inference (JDPI), which u...
+Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its detailed play ex...
 
-### [Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems](http://arxiv.org/abs/2611.24932v1)
-_Priyanka Sinha, Sugam Pandey_ • 2026-11-18
+### [One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning](http://arxiv.org/abs/2611.26617v1)
+_Yuxin Jiang, Wenqiang Sun, Jiaqi Li, Yuchao Gu, Lvmin Zhang, +2 more_ • 2026-11-19
 
-When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the alignment between a reviewer's behavioral confidence and the actual correctness of their judgments. We develop a trait the...
+Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for both inverse and...
 
-### [Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem](http://arxiv.org/abs/2611.24927v1)
-_Sarah H. Cen, Lindsey A. Gailmard, Joohan Kim, Rishi Bommasani, Daniel E. Ho, +1 more_ • 2026-11-18
+### [AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control](http://arxiv.org/abs/2611.26613v1)
+_Yiyang Du, Yuxuan Kuang, Qitao Zhao, Yixuan Wang, Zhanqiu Guo, +5 more_ • 2026-11-19
 
-AI systems are built across many organizations that contribute models, data, compute, capital, talent, and other assets. While the layers of the AI stack are relatively well understood, the relationships between actors and components across layers remains sparsely documented. In this work, we focus on the organizati...
+Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succeed nor where they...
 
-### [Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses](http://arxiv.org/abs/2611.24924v1)
-_Jiahang Lin, Jiahao Chen, Yiding Wang, Shichun Liu, Chengjun Pan, +9 more_ • 2026-11-18
+### [SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research](http://arxiv.org/abs/2611.26601v1)
+_Amine Lbath, Manan Suri, Aurelien Delaitre, Vadim Okun, Massih-Reza Amini, +1 more_ • 2026-11-19
 
-Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit requirements and interaction needs, while using a single evolution agent to modify the harness and benchmark scores to selec...
+LLM-based agents are becoming increasingly capable at discovering, validating and patching vulnerabilities in real software, and vendors and researchers report that this is already changing how vulnerabilities are found and fixed. These claims, however, are scattered across papers, vendor reports and disclosures and...
 
-### [Who are you? The Personal Imitation Game](http://arxiv.org/abs/2611.24888v1)
-_Muhammad Rizky Wellyanto, Hajara-Yasmin Isa, Kexin Xue, Vishal Ravichandran, Wenpeng Lu, +2 more_ • 2026-11-18
+### [Active Feature Acquisition by Distilling an Oracle Teacher](http://arxiv.org/abs/2611.26598v1)
+_Yang Meng, Zixin Ding, Robert L. Grossman, Yuxin Chen_ • 2026-11-19
 
-Large Language Models (LLMs) now perform strongly on Alan Turing's 1950 Imitation Game, so we propose a harder challenge, the Personal Imitation Game, which asks whether a machine can replicate a specific individual in conversation rather than a generic human. Testing with 30 participants, we establish a human basel...
+Acquiring every feature of an instance is often costly: a measurement can carry a monetary price, a time delay, or a privacy cost. Active Feature Acquisition (AFA) addresses this by learning a policy that decides, per instance, which features to acquire under a budget. Existing AFA methods train this policy by optim...
 
-### [Ground, Iterate, Trace: Decomposing AI Research Ideation](http://arxiv.org/abs/2611.24887v1)
-_Samson Yu, Qiran Zou, Jing Yu Lim, Rushi Shah, Anirudh Goyal, +1 more_ • 2026-11-18
+### [PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation](http://arxiv.org/abs/2611.26596v1)
+_Kai Lu, Chenyang Ma, Ioannis Havoutis_ • 2026-11-19
 
-Large language models have been widely used to generate plausible research ideas, yet it remains unclear what makes automated ideation effective and how generated novel proposals arise from prior scientific work. We introduce the Creative AI Researcher (CAR), an agentic framework combining literature grounding, iter...
+Robotic vision-language-action (VLA) models can execute diverse individual manipulation skills, yet they still struggle with long-horizon loco-manipulation tasks, where temporal structure, skills, and precision are tightly coupled within a monolithic model. We propose Physically Grounded Execution (PGX), a framework...
 
-### [Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs](http://arxiv.org/abs/2611.24880v1)
-_Yuzhuo Li, Pasan Gunawardena, Yunwei Li_ • 2026-11-18
+### [Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning](http://arxiv.org/abs/2611.26592v1)
+_Terence D. Agbeyegbe, Toneukarin G. Agbeyegbe_ • 2026-11-19
 
-Agentic artificial intelligence (AI) is emerging in power electronics, where it drives the simulation loop that engineers used to close largely by hand. In this loop, a converter design, or a study of the network it connects to, is built, run, measured and revised until it satisfies its specification. Such an agent...
+Self-consistency certification treats repeated sampling from a language model as sequential evidence accumulation and stops when an anytime-valid e-process crosses a threshold, guaranteeing finite-sample Type I error control by Ville's inequality. Prior constructions assume sampled rollouts are conditionally indepen...
 
-### [Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws](http://arxiv.org/abs/2611.24877v1)
-_Zhiyu Liu, Xinyu Yang_ • 2026-11-18
+### [Probing the "Conscious" Mind: Selective Access and Global Workspace in Vision-Language Models](http://arxiv.org/abs/2611.26590v1)
+_Jiahao Huang, Jun Wang_ • 2026-11-19
 
-Large language models (LLMs) are used to explain clinical prediction models, on the promise that they can say what a model computes, find its faults and even reveal new knowledge in it. We tested the three promises where the answers could be checked. From the International Stroke Trial we trained four kinds of model...
+Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. W...
 
-### [WorldRuler: Interactive World Modeling under Configurable Rules](http://arxiv.org/abs/2611.24869v1)
-_Mingliang Zhai, Chuanhao Li, Jiaming Tan, Zhen Li, Yuwei Wu, +4 more_ • 2026-11-18
+### [Verify the Verifier: Specification-Grounded LLM Cross-Checking for Bugs That Escape UVM Scoreboards](http://arxiv.org/abs/2611.26588v1)
+_Ana E. Sanchez Villalobos, Michael D. Quinn, Aakash Tyagi, Minh D. Luu, David Kebo Houngninou_ • 2026-11-19
 
-Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors. However, realizing user-defined rules presents two ch...
+A passing UVM regression shows the design agrees with the reference model on what the scoreboard checks, not that it meets the specification. Bugs that pass every test yet violate the specification, termed scoreboard escapes, survive mature testbenches. We present Verify the Verifier, to our knowledge the first fram...
 
-### [Choosing What to Observe: Budget-Paired Counterfactual Audits for Credible Evaluation of Visual Agents](http://arxiv.org/abs/2611.24867v1)
-_Ruiqi Liu, Jinming Li, Mo Wang, Yang Lu, Yanlan Kang_ • 2026-11-18
+### [ProtoDiffusion: Token-per-Layer Generative Modeling of Multi-Layer Images](http://arxiv.org/abs/2611.26586v1)
+_Adrià Ciurana Lanau, Harleen Hanspal, Lusine Abrahamyan, Emilio Tylson Baixauli, Yu Cao, +6 more_ • 2026-11-19
 
-Visual agents that read dense documents must ration a finite observation budget across candidate regions, yet answer accuracy conflates where an agent looks, how it adapts to the reads that remain, and how it an?swers once observation stops. We introduce budget-paired counterfactual audits, an evaluation protocol th...
+Graphic designs are ordered compositions of RGBA layers whose separation enables selection, movement, and reuse. Existing layered models represent each layer with a full-canvas or region-sized spatial latent grid, so representation size grows with the cumulative spatial extent of the layers. We present ProtoDiffusio...
 
-### [Can Programs Replace LLM Judges? Executable Program Judges for Scalable and Efficient Relevance Labeling](http://arxiv.org/abs/2611.24849v1)
-_Eugene Agichtein, Charles L. A. Clarke, Kaustubh Dhole, William Stern_ • 2026-11-18
+### [Represented but misread: Post-training changes how language models read out what they represent](http://arxiv.org/abs/2611.26584v1)
+_Jochen Laubrock_ • 2026-11-19
 
-Large language model (LLM) judges have become a common way to create large-scale relevance judgments for retrieval evaluation. However, each judgment requires a potentially expensive call to a frontier model, and the judgments are hard to interpret and may not be reproducible. In this paper, we ask whether an LLM ca...
+Does post-training change what a language model represents, or how this representation is read out into an answer? We compared linear probes with the models' own answers, analyzed with signal detection theory, in six open-weight base models and their post-trained versions. For judgments of whether German texts were...
 
-### [Vibe-Trading: Towards Agent-Native Trading](http://arxiv.org/abs/2611.24845v1)
-_Haozhe Wu, Zhonghang Li, Chao Huang_ • 2026-11-18
+### [GEOHunter: Mapping a Generative Engine Optimization Network in the Wild](http://arxiv.org/abs/2611.26564v1)
+_Sean Tang, Peiran Wang, Ying Li, Esha Shivakumar, Tao Meng, +1 more_ • 2026-11-19
 
-Existing AI agents can retrieve information, call tools, run experiments, and produce multi-step outputs. Yet most are built around relatively static workflows and struggle to preserve reliable state as the environment changes. Financial trading makes this limitation especially consequential: prices, news, market co...
+Generative engines synthesize retrieved web pages into answers, recommendations, and rankings. Generative engine optimization (GEO) services sell visibility in these answers by publishing promotional articles on user-generated-content (UGC) platforms for paying clients. Such promotion raises concerns in medical and...
 
-### [General progress substitutes for specific training data in language models](http://arxiv.org/abs/2611.24844v1)
-_Mark Marosi, Peter Antal_ • 2026-11-18
+### [Multi-institutional grading of Barrett's esophagus dysplasia without stain normalization using a pathology foundation model and multiple instance learning](http://arxiv.org/abs/2611.26562v1)
+_Amirali Khosravi, Jaidip M. Jagtap, D. Chamil Codipilly, Catherine E. Hagen, Jason T. Lewis, +9 more_ • 2026-11-19
 
-Language models acquire their capabilities from training data, and developers withhold data during training to keep models from learning capabilities that could be misused. How long this delays a capability, and how much data is needed to acquire it later, is unknown. Here we show that the general progress a model m...
+Barrett's esophagus dysplasia grading suffers substantial inter-observer variability, particularly for low-grade dysplasia, complicating clinical decision-making. We conducted a retrospective multi-institutional diagnostic accuracy study of a foundation model-based deep learning system for dysplasia grading, using 9...
 
-### [Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving](http://arxiv.org/abs/2611.24840v1)
-_Binay Kumar Singh, Niels Da Vitoria Lobo_ • 2026-11-18
+### [MM-SystemOneBias: Evaluating Bias in Multimodal Jev-Style System One Decision Models](http://arxiv.org/abs/2611.26557v1)
+_Jinzhe Li, Qi Wang, Dandan Guo, Li Liu, Yuan Wu, +1 more_ • 2026-11-19
 
-World models are increasingly used in autonomous driving to predict how a scene evolves under the ego vehicle's actions, supporting counterfactual reasoning and model-based planning. However, existing evaluations focus on prediction fidelity and planning performance, and rarely verify that the predictions depend on...
+When multimodal decision models determine actions, moderation outcomes, or quality judgments, their reliability depends on preserving semantic decisions across presentation changes, ignoring irrelevant additions, and distinguishing information consistent with task evidence from information that conflicts with it. Ex...
 
-### [A Foundation Model to Measure and Predict Human Behaviour](http://arxiv.org/abs/2611.24830v1)
-_Haoran Ye, Tianrui Huo, Hangzhen Li, Xin Zhang, Guojie Song_ • 2026-11-18
+### [Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)](http://arxiv.org/abs/2611.26553v1)
+_Mengxiao Wang, Mahbub Alam, Kalyan Nakka, Nitesh Saxena_ • 2026-11-19
 
-Large language models (LLMs) are increasingly used to infer psychological attributes, predict individual behaviour, and simulate human populations. However, despite generating plausible responses, they often misrepresent individuals and distort population statistics. Here we introduce Chiron, a foundation model to m...
+Agents based on large language models (LLMs) can now delete files and send payments on behalf of their users. News media reports routinely describe failures of these agents (e.g., Replit's coding agent deleting a production database), but a report often only says what went wrong and rarely (in)validates the incident...
 
-### [LAaDT-DSS: decision support for non-experts on rooftop PV, incentive and grid simulations under Turkish tariff rules](http://arxiv.org/abs/2611.24810v1)
-_Baran Kaynak_ • 2026-11-18
+### [The Geometry of Lies: Knowledge and Persona Directions for Detecting Deception in Large Language Models](http://arxiv.org/abs/2611.26545v1)
+_Md. Abdullah Al Zami, Suraiya Shanaz, Mahdi Hasan, Shoaib Ahmed Dipu, Farig Yousuf Sadeque, +1 more_ • 2026-11-19
 
-Rooftop photovoltaics raise three questions: should a household invest, which incentive costs the state least, and does the feeder stay within limits? Those who ask are rarely modellers. We present LAaDT-DSS, decision-support software that answers all three under Turkish tariff rules from one simulation core. Non-ex...
+Linear probes are the cheapest LLM lie detectors but often fail to transfer across kinds of lie. Label-free directions from honest and deceptive role-play are untested at 70B scale and on lies about knowledge, where a lie and an honest denial can be identical. We widen a published persona bank with roles that deny k...
 
-### [On-Policy Morphing into Hybrid Attention Models](http://arxiv.org/abs/2611.24809v1)
-_Disen Lan, Xuanda Wang, Jianbin Zheng, Huafeng Kuang, Wei Tang, +1 more_ • 2026-11-18
+### [AURA: AUdio-dRiven streaming Avatar](http://arxiv.org/abs/2611.26540v1)
+_Nathaniel Cohen, Nicolas Dufour, Amélie Royer, Alasdair Newson, Patrick Pérez_ • 2026-11-19
 
-Hybrid attention models combine full and linear attention to achieve a better quality--efficiency trade-off. Converting pretrained Transformers into such models requires identifying which layers should retain full attention under a prescribed budget. We identify two off-policy mismatches in FlashMorph's layer select...
+Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where low-latency and online causal genera...
 
-### [Soft Mixture of Quantum Experts for Hybrid Quantum-Classical Learning](http://arxiv.org/abs/2611.24798v1)
-_Valeria Repetto, Romina D'Aurizio, Piero Farinelli_ • 2026-11-18
+### [LLM GerryMandering: Separating Interactions from Additive Effects in LLM Audits](http://arxiv.org/abs/2611.26538v1)
+_George Rahul, Ronit Jahilal, Bhaskara Hanuma Vedula, Ponnurangam Kumaraguru, Pushkar Shukla_ • 2026-11-19
 
-Quantum Machine Learning (QML) has attracted increasing interest as a possible route to construct feature representations that are difficult to reproduce with classical models. However, near-term QML architectures based on trainable parametrized quantum circuits remain affected by limited hardware resources, noise,...
+Intersectional bias arises when a model treats people who hold several marginalised identities at once differently from what their separate identities would predict. Auditing such intersectional subgroups remains a challenge: their number grows quadratically, and there is no agreed baseline for what independent attr...
 
-### [Bias-Only Training Dynamics in ReLU Networks](http://arxiv.org/abs/2611.24797v1)
-_Shreyas Chaudhari, Jose M. F. Moura_ • 2026-11-18
+### [Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Models](http://arxiv.org/abs/2611.26531v1)
+_Chang Yang, Yao Xuan, Wendan Yan, Nhat Le, Jiang Liu, +4 more_ • 2026-11-19
 
-Neural networks with randomly initialized, fixed weights and trainable biases are universal approximators, yet the dynamics of bias-only training remain largely unexplored. We study these dynamics in one-hidden-layer ReLU networks through activation codes, the binary patterns of active neurons that partition the inp...
+Large Web platforms operate large fleets of ranking models, each selecting features from a shared pool of tens of thousands. We present an end-to-end agentic system that optimizes features across the fleet under resource constraints shared across models and those set per model, such as feature pipeline cost and serv...
 
-### [The Elephant in the Question: Unified Models Picture the Concepts Behind Their Answers](http://arxiv.org/abs/2611.24793v1)
-_Tobias Braun, Marcus Rohrbach, Lorenzo Cavallaro_ • 2026-11-18
+### [Backtracking Agent Applications Security Incidents](http://arxiv.org/abs/2611.26525v1)
+_Yicheng Cai, Taegyu Kim, Peng Liu_ • 2026-11-19
 
-Visualizing intermediate representations could help us inspect the reasoning steps underlying a model output. Unified multimodal models offer this opportunity by combining understanding and generation in one architecture. Their image generators can access representations formed while processing text. We introduce th...
+Agent applications are increasingly deployed, yet agent-specific attacks pose real threats to them. Upon a security incident, organizations backtrack to identify the CEP (compromise entry point), remediate the damage, and prevent its recurrence. The main artifacts available for backtracking are trajectory logs, whic...
 
-### [Isabelle Pool Server: a pooled verification service for prover training and multi-agent proving](http://arxiv.org/abs/2611.24788v1)
-_Xuanwei Ren, Wenda Li_ • 2026-11-18
+### [Hybrid Retrieval for Government Scheme Search in English and Marathi](http://arxiv.org/abs/2611.26514v1)
+_Aishwarya Gunjal, Kanchan Khemnar, Pawan Poojary, Pranav Kulkarni, Raviraj Joshi, +1 more_ • 2026-11-19
 
-Isabelle Pool Server (IPS), a verification service with a pool of warm headless Isabelle sessions behind an HTTP API, with session leasing and reclamation, memory-aware admission control, and a time budget on every call. Its verification interface spans single-step execution, block-level proof checking and whole-the...
+Retrieving government schemes requires matching citizens' information needs to formal administrative descriptions, often across languages and terminology. We present a bilingual search system for Maharashtra government schemes and public services that combines BM25 retrieval with sentence-embedding similarity throug...
 
-### [Learning Trajectories Leave Decodable Traces in Neural Network Weight Space and Internal Representations](http://arxiv.org/abs/2611.24782v1)
-_Patrick Krauss, Achim Schilling, Andreas Maier, Thomas Kinfe, Claus Metzner_ • 2026-11-18
+### [AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher](http://arxiv.org/abs/2611.26510v1)
+_Guoxin Chen, Shuang Sun, Fanzhe Meng, Xinyu Tang, Ruihua Song, +1 more_ • 2026-11-19
 
-Neural networks trained on the same task develop related weight-space structures, yet remain distinguishable after learning. Do these differences merely reflect alternative solutions, or do they preserve information about individual learning histories? We tested whether final weights reveal initialization, task orde...
+Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectories can contain unsupported assumptions, unproductive repetition, or superficial verification. We propose Skill-FT (Skill-Guided Fine-Tuning), which uses natural-language skills to suppress undesirabl...
 
-### [Counterfactual World Models: JEPAs That Reason About "What If"](http://arxiv.org/abs/2611.24778v1)
-_Randall Balestriero, Yann LeCun, Kerda Varaku_ • 2026-11-18
+### [GLiDE: A Fast, Calibrated Decision Model Distilled from Reasoning Teachers](http://arxiv.org/abs/2611.26509v1)
+_Sahibzada Allahyar, Julia White, Dhruv Atreja, George Hurn-Maloney, Urchade Zaratiana_ • 2026-11-19
 
-World models operate in a world they cannot fully observe. When a hidden disturbance, such as a current pushing a boat, changes the outcome of an action, a counterfactual question follows: what would have happened under a different action, subject to the same disturbance? Its answer separates bad decisions from bad...
+Decision models enable fast, confidence-aware decisions by scoring candidate answers in a single forward pass, without generating text or intermediate reasoning. Yet reasoning can substantially improve decision quality, raising the question of whether its benefits can be retained without the cost of generating it. W...
 
-### [LLM-Guided Cyber-Physical Attack Path Identification in Smart Grids](http://arxiv.org/abs/2611.24765v1)
-_Amr Elshazly, Jesse Roberts, Rachad Atat, Muhammad Ismail_ • 2026-11-18
+### [Multimodal Error Detection in Chest X-ray Reports: A Large Language Model Reading Image Evidence](http://arxiv.org/abs/2611.26492v1)
+_Yanda Cheng, Bo Wen, Yuhao Lu_ • 2026-11-19
 
-Identifying high-impact attack paths in cyber-physical power systems is critical for improving grid resilience. Existing methods typically rely on either structural topology analysis or simulation-based cascading-failure models. Topology-based approaches capture connectivity but lack adversarial reasoning, while sim...
+Rad-Linter checks chest X-ray reports against image-derived evidence to flag potential errors for review. A pretrained image classifier supplies scores for nine pathologies, and a 1.5B-parameter language model, fine-tuned with LoRA on 1,816 examples, checks their consistency with the report. We compare it with a key...
 
-### [Horizontal Flow Matching for Single-Cell Spatiotemporal Dynamics](http://arxiv.org/abs/2611.24764v1)
-_Zihan Wang, Jianzhe Li, Zhenyi Zhang, Peijie Zhou_ • 2026-11-18
+### [FLUID: Flexible, Evidence-Grounded Situated Task Guidance](http://arxiv.org/abs/2611.26491v1)
+_Yunqi Zhao, Run Peng, Ze Dong, Ryan Lu, Yinpei Dai, +1 more_ • 2026-11-19
 
-Learning the spatiotemporal dynamics of cells from spatial transcriptomics requires connecting snapshots of different cells acquired in different coordinate frames. A rotation or translation of a section can appear as cell movement and distort the inferred correspondence. We introduce horizontal flow matching, which...
+Real-time task guidance is inherently flexible: when an agent guides a user through a task, multiple responses and timings can be appropriate, and sometimes the best action is to remain silent. Existing benchmarks often miss this flexibility by treating synthesized dialogues as fixed targets for what to say and when...
 
-### [Elysium: Simulation-Free Unbalanced Schrödinger Bridges](http://arxiv.org/abs/2611.24763v1)
-_Zihan Wang, Jianzhe Li, Zhenyi Zhang, Peijie Zhou_ • 2026-11-18
+### [A new algorithmic approach for finding flat minima: critically damped Polyak stepsizes](http://arxiv.org/abs/2611.26475v1)
+_Francesco Caporali, Jason M. Altschuler, Boris Hanin_ • 2026-11-19
 
-Reconstructing cellular dynamics from snapshots is challenging because the destructive nature of single-cell measurements makes tracking the same cells over time impossible. Cellular dynamics are inherently stochastic and involve changes in population size through proliferation and apoptosis. Growth-based methods re...
+We present a new adaptive stepsize rule that biases gradient descent toward flatter minima in both theory and practice, and establish the first uniform-in-time guarantees for both sharpness and loss reduction for a broad class of locally quadratic objectives. Our critically damped Polyak (CDP) stepsizes multiply the...
 
-### [How Generative Models Generate: A Concise Guide to the Generative AI Landscape](http://arxiv.org/abs/2611.24728v1)
-_Tianhua Chen_ • 2026-11-18
+### [Monte Carlo Pass Search for Setpieces](http://arxiv.org/abs/2611.26464v1)
+_Andrew Kang_ • 2026-11-19
 
-The rapidly expanding generative AI landscape brings together methods that differ in architecture, learning objective, mathematical representation and sampling procedure. A concise, selectively organised technical guide can provide an accessible starting point for developing a coherent understanding of this increasi...
+Set pieces produce about a third of non-penalty expected goals (xG), yet they are usually evaluated by what happened next. We present Monte Carlo Pass Search (MCPS) for set pieces, which treats a corner or a lofted free kick as a distribution over plausible executions and plausible futures instead of a single realis...
 
-### [Induction Head Origins of SLAM-ASR Speech Recognition Models](http://arxiv.org/abs/2611.24721v1)
-_Artem Fedorchenko, Tanel Alumäe_ • 2026-11-18
+### [A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights](http://arxiv.org/abs/2611.26450v1)
+_Tanmay Sah_ • 2026-11-19
 
-What makes a small trained map from encoder states to the embedding space of a frozen language model sufficient for competitive speech recognition? The premise of the SLAM-ASR architecture is that a frozen language model possesses linguistic knowledge rich enough to perform the recognition task. This assumption, whi...
+Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters. We introduce closed-form, zero-gradient circuit-grafting primitives that compile deterministic computation directly into pretrained LM weights using zero training examples an...
 
-### [DRIFT: Detachable Reasoning for Runtime-Flexible and Efficient End-to-End Driving](http://arxiv.org/abs/2611.24719v1)
-_Emad Aghajanzadeh, Bethany Anne Wong, Leonhard Kunze, Moritz Thoma, Maximilian Forstenhäusler, +6 more_ • 2026-11-18
+### [Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation](http://arxiv.org/abs/2611.26444v1)
+_Yuzhi Huang, Jie Wu, Fanding Huang, Junchao Lin, Weichen Zhang, +38 more_ • 2026-11-19
 
-The integration of vision-language models (VLMs) into end-to-end (E2E) autonomous driving has demonstrated strong potential by providing scene description and reasoning capabilities. However, VLMs are computationally expensive, and switching language reasoning on and off at runtime without hurting closed-loop perfor...
+Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedbac...
 
-### [Openhagen Worlds: Calibrated Environments for Measuring and Training Scientific Discovery Agents](http://arxiv.org/abs/2611.24711v1)
-_Alexander Boesgaard Lorup_ • 2026-11-18
+### [Asuka-FM: A System-Architectural Co-Design Framework for Efficient Text-to-Image Pretraining on Consumer Hardware](http://arxiv.org/abs/2611.26437v1)
+_Víctor Rodrigo González, Pablo M. Olmos, Ignacio Peis, Alejandro Lancho_ • 2026-11-19
 
-Agents that do science must choose informative experiments and reason from their results, but most discovery benchmarks cannot separate that skill from recall, unstated scoring rules or shortcut policies. We introduce Openhagen Worlds, a suite of 27 procedurally generated environments (some with finite truth spaces)...
+Frontier text-to-image (T2I) foundation models predominantly rely on multi-billion parameter Diffusion Transformers (DiTs) pretrained across massive compute clusters, creating an accessibility barrier for academic laboratories. When training DiTs from scratch on single consumer GPUs (e.g., an NVIDIA RTX 4090 with 24...
 
-_snapshot taken at 2026-11-19T21:47:06+00:00_
+_snapshot taken at 2026-11-20T21:31:10+00:00_
