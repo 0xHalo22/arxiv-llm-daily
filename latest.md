@@ -1,4 +1,4 @@
-# arxiv LLM daily — 2026-11-21
+# arxiv LLM daily — 2026-11-22
 
 the 30 most recent papers from cs.CL and cs.AI.
 
@@ -152,4 +152,4 @@ _Víctor Rodrigo González, Pablo M. Olmos, Ignacio Peis, Alejandro Lancho_ • 
 
 Frontier text-to-image (T2I) foundation models predominantly rely on multi-billion parameter Diffusion Transformers (DiTs) pretrained across massive compute clusters, creating an accessibility barrier for academic laboratories. When training DiTs from scratch on single consumer GPUs (e.g., an NVIDIA RTX 4090 with 24...
 
-_snapshot taken at 2026-11-21T20:14:10+00:00_
+_snapshot taken at 2026-11-22T20:27:41+00:00_
