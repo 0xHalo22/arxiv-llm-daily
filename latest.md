@@ -1,4 +1,4 @@
-# arxiv LLM daily — 2026-11-26
+# arxiv LLM daily — 2026-11-27
 
 the 30 most recent papers from cs.CL and cs.AI.
 
@@ -152,4 +152,4 @@ _Alessandro Cantelli-Forti, Isabella Marasco, Hosam Alamleh, Giada Boschi, Miche
 
 Large language models (LLMs) are transforming the economics of intrusion by reducing the attacker's cost to scan and adapt, while tempting defenders into unbounded compute. We argue that cyber deception should be judged by the cost exchange it imposes, not by realism or detection, and that the primitive making that...
 
-_snapshot taken at 2026-11-26T22:34:03+00:00_
+_snapshot taken at 2026-11-27T22:18:31+00:00_
